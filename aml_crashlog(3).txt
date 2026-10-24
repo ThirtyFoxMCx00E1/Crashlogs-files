@@ -1,0 +1,312 @@
+!!! THIS IS A CRASH LOG !!!
+If you are experiencing a crash, give us this file.
+>>> DO NOT SEND US A SCREENSHOT OF THIS FILE <<<
+
+Config variables: | g_bSimplerCrashLog = 0 | g_bNoSPInLog = 0 | g_bNoModsInLog = 0 | g_bDumpAllThreads = 1 | g_bEHUnwind = 0 | g_bMoreRegsInfo = 1 | g_bUnixBacktrace = 0 | 
+Exception Signal 11 - SIGSEGV (SEGV_UNKNOWN)
+Fault address: 0x6E3A (0x6E3A) at 0xDF00C6C0
+A POSSIBLE (!) reason of the crash:
+- An application tried to access the memory address that is unaccessible, protected or just wrong
+Library base: 0xDECC1000
+libGTASA.so + 0x34B6C0 (_ZN14CRunningScript23LocateCharObjectCommandEi)
+
+----------------------------------------------------
+Short device info:
+Android SDK Version: 36
+Brand: realme
+Device: RE6054
+Supported ABIs: arm64-v8a,armeabi-v7a,armeabi
+OS Build Date: Wed Jul 29 10:25:28 CST 2026
+OS Build ID: BP2A.250605.031.A3
+
+----------------------------------------------------
+Registers:
+R0:	0	0x0
+R1:	3890905984	0xE7EA8380
+R2:	3890924044	0xE7EACA0C
+R3:	420	0x1A4
+R4:	3931101680	0xEA4FD9F0
+R5:	1	0x1
+R6:	3746138355	0xDF4988F3 (libGTASA.so + 0x7D78F3)
+R7:	3566712592	0xD497B710
+R8:	1137	0x471
+R9:	4294967293	0xFFFFFFFD
+R10:	3931101680	0xEA4FD9F0
+R11:	3566712856	0xD497B818
+R12:	4294967295	0xFFFFFFFF
+SP:	3566712472	0xD497B698
+LR:	3746031508	0xDF47E794 (libGTASA.so + 0x7BD794)
+PC:	3741370048	0xDF00C6C0 (libGTASA.so + 0x34B6C0)
+CPSR:	1611595824	0x600F0030
+
+----------------------------------------------------
+List of loaded mods (count=70):
+AML Core (RusJJ aka [-=KILL MAN=-], version 1.4)
+ - GUID: net.rusjj.aml | Base: 0x0 | Path: localpath (core)
+AMLs Limit Adjuster (RusJJ, version 0.1)
+ - GUID: net.rusjj.la | Base: 0xC1B5F2C9 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libAMLLA.so
+AdvancedAimingMod (GTAPLUGIN, version 1.0)
+ - GUID: net.peepo.advancedaimingmod | Base: 0x5C434339 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libAdvancedAimingMod.SA.so
+GTA:SA Advanced Settings (ARM, version 7.3.1 PBLC)
+ - GUID: advancedsettings.sa | Base: 0xEC7F2FE5 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libAdvancedSettings.SA.so
+BASS Sound Library (RusJJ, version 1.2.1)
+ - GUID: net.rusjj.basslib | Base: 0x2EF60D8D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libBASSMod.so
+GTASA (Pandagaming, version 1.0)
+ - GUID: sabackfire | Base: 0x10A5FF4D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libBackFire.so
+MP Multiplayer (ThirtyFoxMCx00E1, version 3.04.6)
+ - GUID: net.thirtyfox.mp | Base: 0x14AE25D9 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libMP32.so
+BlipWorks (RusJJ, version 1.3.1)
+ - GUID: net.rusjj.blipworks | Base: 0x12D94FA9 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libBlipWorks.so
+GTASA BulletTracers (RusJJ, version 1.1)
+ - GUID: net.theartemmaps.rusjj.tracers | Base: 0x4099A725 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libBulletTracers.so
+CLEO Library (Alexander Blade & RusJJ & XMDS, version 2.0.1.10)
+ - GUID: net.rusjj.cleolib | Base: 0x72BF0CE1 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCLEOMod.so
+CLEOPlus (JuniorDjjr & RusJJ, version 1.0)
+ - GUID: net.juniordjjr.rusjj.cleoplus | Base: 0x6A36377 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCLEOPlus.so
+CLEO AudioStreams (Alexander Blade & RusJJ, version 1.4.1)
+ - GUID: net.alexblade.rusjj.audiostreams | Base: 0x1CA33A93 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCLEO_AudioStreams.so
+CLEO_ImGui (MatiDragon, version 1.2.0)
+ - GUID: net.matidragon.cleo_imgui | Base: 0x84D4D0E3 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCLEO_ImGui.so
+CLEO4 IniFiles (Alexander Blade & RusJJ, version 1.3)
+ - GUID: net.alexblade.rusjj.inifiles | Base: 0x8B01035D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCLEO_IniFiles.so
+CLEO IntOperations (Alexander Blade & RusJJ, version 1.1)
+ - GUID: net.alexblade.rusjj.intops | Base: 0xE9663327 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCLEO_IntOperations.so
+CLEO VisualObject (TecoReacvite, version 1.0.3)
+ - GUID: net.teco.visualobject | Base: 0x6627FBBD | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCLEO_VisualObject.so
+"CarAlarm" ("ErennRii", version "8.0")
+ - GUID: "net.erennrii.psdk.caralarm" | Base: 0x8F4B9D2F | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCarAlarm.so
+Car Door Collision (You, version 1.0)
+ - GUID: net.bill.doorcollision | Base: 0xE0DEF891 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCarDoorCollision.so
+Collectibles on Radar (kong78 & RusJJ, version 1.3)
+ - GUID: net.kong78.rusjj.cor | Base: 0xD816D6EB | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCollectiblesOnRadar.so
+ExGangWars (SilentPL & RusJJ, version 1.1)
+ - GUID: net.silent.rusjj.exgangwars | Base: 0x90DDA12F | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libExGangWars.so
+GTA:SA Speedometer (GTA Community & ARM, version 1.7)
+ - GUID: fhspeedometer | Base: 0x3F0C571 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libFHSpeedometer.so
+GTA:SA Fullscreen Splashes (RusJJ, version 1.1)
+ - GUID: net.rusjj.fullsplash | Base: 0x671DC90D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libFullscreenSplash.so
+Wanted Radar (RusJJ, version 1.1)
+ - GUID: net.rusjj.wantedradar | Base: 0x307A059F | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libGTA_WantedRadar.so
+GTA:SA Glowing Pickups (kagikn & RusJJ, version 1.4)
+ - GUID: net.kagikn.rusjj.glowingpickups | Base: 0x7E23127F | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libGlowingPickupsSAA.so
+HeliFixSA (Grinch_ & RusJJ, version 1.1)
+ - GUID: net.usergrinch.rusjj.helifix | Base: 0xF8C0A1B | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libHeliFix.so
+ImHudExtended (ocornut & rusjj & XkiiGnss, version 2.1.0)
+ - GUID: xkiignss.imhudextended | Base: 0xA86A2D53 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libImHudExtended.so
+JPatch (RusJJ, version 1.10.2.1)
+ - GUID: net.rusjj.jpatch | Base: 0x218166DF | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libJPatch.so
+PC Menu (PCMenu, version 1.1.9)
+ - GUID: net.gtasa.pcmenu | Base: 0xC942A7A5 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libPCMenu32.so
+LensRecoilFX (XkiiGnss, version 1.2.0)
+ - GUID: xkiignss.lensrecoilfx | Base: 0x17F6B2B | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libLensRecoilFX.so
+GTASA (Panda & TheArtemMaps, version 1.0)
+ - GUID: lightonbulletimpact | Base: 0x5ABE76C9 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libLightOnBulletImpact.so
+SA (PandaGaming, version 1.0)
+ - GUID: targetlockon | Base: 0xDCDE6C4F | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libLockOn.so
+FixMALE01 (JuniorDjjr & RusJJ, version 1.2)
+ - GUID: net.juniordjjr.rusjj.male01 | Base: 0x6ED47207 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libMale01Fix.so
+MapMenuTweaks (cheeseburger, version 1.0)
+ - GUID: chzbrgr.mapmenutweaks | Base: 0x780F8835 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libMapMenuTweaks.so
+GTA:SA More Settings (RusJJ, version 1.4)
+ - GUID: net.rusjj.gtasa.moresettings | Base: 0x67D3C7AB | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libMoreSettings.so
+Moving Moon (CowBoy69 & RusJJ, version 1.0.1)
+ - GUID: net.rusjj.movingmoon | Base: 0x1BB0851 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libMovingMoon.so
+OpenAL Soft (kcat & TheOfficialFloW & RusJJ, version 1.2)
+ - GUID: net.rusjj.gtasa.openal | Base: 0x813202B1 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libOpenALUpdate.so
+PedFuncs (JuniorDjjr & RusJJ, version 1.1.1)
+ - GUID: net.juniordjjr.rusjj.pedfuncs | Base: 0xF81D5667 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libPedFuncs.so
+Project 2DFX (ThirteenAG & RusJJ, version 1.1)
+ - GUID: net.thirteenag.rusjj.gtasa.2dfx | Base: 0xF263557B | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libProject2DFX.so
+GTA:SA RadarRotation (ARM, version 2.1)
+ - GUID: minimaprotmode | Base: 0x2F4ABB77 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libRadarRotation.SA.so
+Real Skybox (Junior Djrr & RusJJ, version 0.5)
+ - GUID: net.juniordjjr.rusjj.realskybox | Base: 0x750A3EBF | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libRealSkybox.so
+RealTrafficFix (JuniorDjjr & RusJJ, version 1.1)
+ - GUID: net.juniordjjr.rusjj.rtf | Base: 0xE833B695 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libRealTrafficFix.so
+Rubbish (re3 Team & gennariarmando & RusJJ, version 1.1)
+ - GUID: net.re3.gennariarmando.rusjj.rubbish | Base: 0x459D38DB | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libRubbishPort.so
+GTASA Planter (RusJJ, version 1.5)
+ - GUID: net.rusjj.plantes | Base: 0x8735B1CB | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libSAPlanter.so
+SAMImprovedStreaming (XMDS & Junior_Djjr, version 1.1)
+ - GUID: net.xmds.samimprovedstreaming | Base: 0xA79DD88B | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libSAMImprovedStreaming.so
+SAUtils (RusJJ, version 1.6)
+ - GUID: net.rusjj.gtasa.utils | Base: 0xFEB927A9 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libSAUtils.so
+Simple Limit Adjusters (ARM, version 1.7)
+ - GUID: arm.simplelimitadjusters | Base: 0x26809539 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libSimpleLimitAdjusters.so
+SkyGFX Mobile Beta (aap & TheOfficialFloW & RusJJ, version 0.6)
+ - GUID: net.rusjj.skygfxmobile | Base: 0x499D7857 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libSkyGFXMobile.so
+GTA StarrySkies (RusJJ, version 1.2)
+ - GUID: net.rusjj.starryskies | Base: 0xEDFF46DF | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libStarrySkies.so
+Tactical Compass (Realisrared, version 2.0)
+ - GUID: net.realisrared.tacticalcompass | Base: 0x7ED305D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libTacticalCompass.so
+GTA:SA WheelDetach (Junior_Djjr & ARM, version 1.0)
+ - GUID: wheeldetach | Base: 0xAA67DE6D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libWheelDetach.SA.so
+GTA : SA Wider Headlights(32 - bit) (groot, version 1.0)
+ - GUID: net.groot.widerheadlights | Base: 0x479A2E61 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libWiderHeadlights.so
+Advanced Threat Radar (fadli, version 2.0)
+ - GUID: net.dliiartworks.advancedthreatradar | Base: 0x2CAE91D9 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libavtdliiartworks32.so
+Plane Contrail (cheeseburger, version 1.0)
+ - GUID: chzbrgr.planecontrail | Base: 0x430F3A7D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libPlaneContrail.so
+GTA:SA Draw Distance (RusJJ, version 1.1)
+ - GUID: net.rusjj.gtasa.drawdistance | Base: 0x9F3A4F5 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libdrawdistance.so
+VCamLook (Fadli, version 2.0)
+ - GUID: net.dliiartworks.vcamlook | Base: 0xEB6223ED | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libvcamdliiartworks32.so
+GTA:SA GPS (DK22Pac & JuniorDjjr & juicermv & RusJJ, version 1.5)
+ - GUID: net.dk22pac.rusjj.gps | Base: 0xE0C96A3 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libGPS.so
+Proper GFX Mobile (ProperGFX, version 1.4.5)
+ - GUID: net.propergfx.mobile | Base: 0xEA721D53 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libProperGFX32.so
+CameraFX (Senji, version 1.9)
+ - GUID: net.thirtyfoxmc.camerafx | Base: 0x3CA169AB | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCameraFX32.so
+CutsceneCtrl (YourName, version 1.0.4)
+ - GUID: com.example.cutscenectrl | Base: 0x8DDA13E7 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCutsceneCtrl32.so
+DynamicSeason (Wazitech, version 4.9.5)
+ - GUID: net.wazitech.dynamicseason | Base: 0xD04F41C7 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libDynamicSeason.so
+FPS Counter Overlay (BANGnip, version 1.1)
+ - GUID: net.bangnip.fpscounter | Base: 0x6E12B803 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libFPSCounter.so
+PCIntro (ThirtyFoxMC, version 12.0)
+ - GUID: mc.thirtyfox.pcintro | Base: 0xE2C7D667 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libPCIntro32.so
+Custom Vehicle Lights (TwentySeven, version 1.1)
+ - GUID: customvehiclelights | Base: 0x75025A51 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCustomVehicleLights.so
+VehDeform32 (Metalogic, version 1.0)
+ - GUID: net.zzpuma.metalogic.vehdeform | Base: 0xF78D2C81 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//VehDeform32.so
+GrenadeAim (user, version 1.9.4)
+ - GUID: net.local.grenadeaim | Base: 0xE9C2F737 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libGrenadeAim.so
+Blip Radar Range (GZ, version 1.1.0)
+ - GUID: gz.blipradarrange | Base: 0xB3258991 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libBlipRadarRange.so
+EarshotOboe (Earshoot Oboe, version 2.0.1)
+ - GUID: net.earshootoboe.gtasa | Base: 0xC6B29995 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libEarshotOboe.so
+GTASA Bullet Decals (vkmz, version 1.0)
+ - GUID: net.psdk.bulletdecals | Base: 0xDD276B97 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//bulletdecals.so
+BikeFlipFix (DeviceBlack, version 2.0)
+ - GUID: deviceblack.bikeflipfix | Base: 0x5BBB8111 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libBikeFlipFix.so
+Weapon Details (Android port) (ArtemQa146 & port, version 1.3)
+ - GUID: com.wdport.weapondetails | Base: 0x1F53C37D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libWeaponDetails.so
+
+----------------------------------------------------
+Printing 1296 bytes of stack:
+ CC 13 4D DF 00 00 00 00 94 02 7B D9 F0 D9 4F EA (SP+0x000) [..M.......{...O.]
+ 18 B8 97 D4 F0 D9 4F EA 00 00 00 00 FF FF FF FF (SP+0x010) [......O.........]
+ 57 00 00 00 80 84 2E 41 38 84 2A 35 7B A0 35 3F (SP+0x020) [W......A8.*5{.5?]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x030) [................]
+ 00 00 00 00 BB A1 04 40 00 00 00 00 00 00 00 00 (SP+0x040) [.......@........]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x050) [................]
+ F0 D9 4F EA 94 02 7B D9 18 B8 97 D4 F0 D9 4F EA (SP+0x060) [..O...{.......O.]
+ 00 00 00 00 F3 88 49 DF B0 B7 97 D4 4D 03 01 DF (SP+0x070) [......I.....M...]
+ 94 02 7B D9 F0 D9 4F EA 18 B8 97 D4 F0 D9 4F EA (SP+0x080) [..{...O.......O.]
+ 00 00 00 00 EF 88 49 DF B0 B7 97 D4 CF E9 FE DE (SP+0x090) [......I.........]
+ B0 B7 97 D4 29 F4 00 DF B0 B7 97 D4 94 E7 47 DF (SP+0x0A0) [....).........G.]
+ CC 13 4D DF 94 E7 47 DF CC 13 4D DF 00 00 00 00 (SP+0x0B0) [..M...G...M.....]
+ 94 02 7B D9 F0 D9 4F EA 57 00 00 00 80 84 2E 41 (SP+0x0C0) [..{...O.W......A]
+ 38 84 2A 35 7B A0 35 3F 00 00 00 00 00 00 00 00 (SP+0x0D0) [8.*5{.5?........]
+ 00 00 00 00 C7 50 11 B3 57 00 00 00 80 84 2E 41 (SP+0x0E0) [.....P..W......A]
+ 38 84 2A 35 7B A0 35 3F 00 00 00 00 00 00 00 00 (SP+0x0F0) [8.*5{.5?........]
+ 00 00 00 00 94 02 7B D9 F0 D9 4F EA F0 D9 4F EA (SP+0x100) [......{...O...O.]
+ 71 04 00 00 F3 88 49 DF B8 B7 97 D4 2B 1F 92 DC (SP+0x110) [q.....I.....+...]
+ E0 B7 97 D4 15 81 B7 DC E0 B7 97 D4 00 00 00 00 (SP+0x120) [................]
+ 94 02 7B D9 94 02 7B D9 18 B8 97 D4 F0 D9 4F EA (SP+0x130) [..{...{.......O.]
+ 71 04 00 00 F3 88 49 DF 14 00 00 00 75 F2 79 D9 (SP+0x140) [q.....I.....u.y.]
+ 09 02 00 00 40 9D CA E6 F3 88 49 DF 02 00 00 00 (SP+0x150) [....@.....I.....]
+ 00 00 00 00 94 02 7B D9 E5 1E 00 DD 04 DA 4F EA (SP+0x160) [......{.......O.]
+ 00 00 00 00 00 00 00 00 00 00 00 00 26 10 01 00 (SP+0x170) [............&...]
+ 00 65 6E 75 00 65 50 61 79 2E 63 73 61 00 61 00 (SP+0x180) [.enu.ePay.csa.a.]
+ 18 B8 97 D4 18 B8 97 D4 98 28 4D DF F0 D9 4F EA (SP+0x190) [.........(M...O.]
+ 3A AA 4D DF F1 11 00 DF 80 B8 97 D4 8B 0A 00 00 (SP+0x1A0) [:.M.............]
+ 1F 85 EB 51 94 65 32 DF F8 FF FF 3F DF F2 79 D9 (SP+0x1B0) [...Q.e2....?..y.]
+ 9E B6 4D DF 7B C3 FE DE 50 BC 61 DF F0 DC 6A DF (SP+0x1C0) [..M.{...P.a...j.]
+ F0 DC 6A DF 57 00 00 00 8C 86 4D DF F0 D9 4F EA (SP+0x1D0) [..j.W.....M...O.]
+ F0 DA 4F EA 38 AA 4D DF D0 B8 97 D4 61 C1 FE DE (SP+0x1E0) [..O.8.M.....a...]
+ FF 00 00 00 00 00 00 FF 80 80 80 80 E1 E1 E1 FF (SP+0x1F0) [................]
+ 00 00 00 3F 80 84 2E 41 00 00 00 00 00 00 14 40 (SP+0x200) [...?...A.......@]
+ C2 4E 75 8C 03 B7 DA C1 9A 99 99 3D 24 39 AD DC (SP+0x210) [.Nu........=$9..]
+ 01 00 00 00 6C 10 3A DF FC D8 6B DF 00 00 00 00 (SP+0x220) [....l.:...k.....]
+ 00 00 00 00 00 00 00 00 E8 B8 97 D4 2D D4 E1 D9 (SP+0x230) [............-...]
+ FC D8 6B DF 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x240) [..k.............]
+ F8 B8 97 D4 FB 9A 5F DA 00 00 00 00 00 00 00 00 (SP+0x250) [......_.........]
+ 08 B9 97 D4 17 F7 46 DB 00 00 00 00 09 00 00 00 (SP+0x260) [......F.........]
+ 28 B9 97 D4 87 50 0B DF 00 00 00 3F 80 84 2E 41 (SP+0x270) [(....P.....?...A]
+ FC D8 6B DF 0C BD EB D9 00 00 00 00 00 00 00 00 (SP+0x280) [..k.............]
+ 40 B9 97 D4 7D 6F EB D9 FC D8 6B DF 74 30 C0 D9 (SP+0x290) [@...}o....k.t0..]
+ 74 30 C0 D9 00 00 00 00 50 B9 97 D4 93 B9 49 DA (SP+0x2A0) [t0......P.....I.]
+ 00 00 00 00 00 00 00 00 60 B9 97 D4 AB 9C 5F DA (SP+0x2B0) [........`....._.]
+ 00 00 00 00 00 00 00 00 70 B9 97 D4 53 E2 E0 DA (SP+0x2C0) [........p...S...]
+ 00 00 00 00 00 00 00 00 80 B9 97 D4 03 27 2A DC (SP+0x2D0) [.............'*.]
+ 00 00 00 00 00 00 00 00 90 B9 97 D4 FB 85 4C DC (SP+0x2E0) [..............L.]
+ 40 06 00 00 00 00 00 00 98 B9 97 D4 13 D2 1D DE (SP+0x2F0) [@...............]
+ B0 B9 97 D4 4B 10 36 DB 24 39 AD DC 40 06 00 00 (SP+0x300) [....K.6.$9..@...]
+ 00 00 00 00 00 00 00 00 D8 B9 97 D4 9B BA E3 DB (SP+0x310) [................]
+ 00 00 00 00 24 39 AD DC 01 00 00 00 6C 10 3A DF (SP+0x320) [....$9......l.:.]
+ FC D8 6B DF 40 06 00 00 00 00 00 00 00 00 00 00 (SP+0x330) [..k.@...........]
+ E8 B9 97 D4 E1 D7 E3 DB 40 06 00 00 00 00 00 00 (SP+0x340) [........@.......]
+ 08 BA 97 D4 A5 1F 92 DC D0 02 00 00 6C 10 3A DF (SP+0x350) [............l.:.]
+ 00 00 00 00 40 06 00 00 D0 02 00 00 6C 10 3A DF (SP+0x360) [....@.......l.:.]
+ 10 BA 97 D4 F3 7D 29 DB 40 BA 97 D4 E7 79 0B DF (SP+0x370) [.....}).@....y..]
+ C8 97 75 DF BB D7 28 EA 00 00 00 00 C8 97 75 DF (SP+0x380) [..u...(.......u.]
+ C8 97 75 DF F8 00 65 DF FC D8 6B DF 01 00 00 00 (SP+0x390) [..u...e...k.....]
+ B8 A9 61 DF 31 75 00 00 C8 BA 97 D4 F5 1B 8D DE (SP+0x3A0) [..a.1u..........]
+ 55 D0 8C DE 0C 10 2C EA 62 00 00 00 00 00 00 00 (SP+0x3B0) [U.....,.b.......]
+ 00 00 00 00 C3 F4 2B 00 B0 81 00 00 01 00 00 00 (SP+0x3C0) [......+.........]
+ F8 27 00 00 FF 03 00 00 00 00 00 00 00 00 00 00 (SP+0x3D0) [.'..............]
+ 00 00 00 00 00 00 00 00 21 18 00 00 00 00 00 00 (SP+0x3E0) [........!.......]
+ 00 10 00 00 00 00 00 00 10 00 00 00 00 00 00 00 (SP+0x3F0) [................]
+ D8 BA 97 D4 00 00 00 00 D0 9F 84 02 00 00 00 00 (SP+0x400) [................]
+ C0 EE D2 6A A1 91 39 DF 00 00 00 00 01 00 00 00 (SP+0x410) [...j..9.........]
+ FC D8 6B DF C7 50 11 B3 01 00 00 00 B8 A9 61 DF (SP+0x420) [..k..P........a.]
+ D8 BA 97 D4 FD 7E 0B DF 01 00 00 00 1A 00 00 00 (SP+0x430) [.....~..........]
+ E8 BA 97 D4 1D 53 19 DF 92 57 01 00 F0 97 75 DF (SP+0x440) [.....S...W....u.]
+ F8 BA 97 D4 FD 59 2A DF A0 9D 75 DF F9 17 02 00 (SP+0x450) [.....Y*...u.....]
+ 48 BB 97 D4 AD 61 2A DF 6C 10 3A DF F0 97 75 DF (SP+0x460) [H....a*.l.:...u.]
+ FC D8 6B DF 00 00 48 44 00 00 B4 43 40 06 00 00 (SP+0x470) [..k...HD...C@...]
+ D0 02 00 00 00 00 00 00 00 00 00 00 80 84 2E 41 (SP+0x480) [...............A]
+ 98 DB EA D5 10 64 32 EE 98 DB EA D5 05 98 E6 EC (SP+0x490) [.....d2.........]
+ 2C 88 FF 6F 10 64 32 EE 70 EE 0B D5 01 00 00 00 (SP+0x4A0) [,..o.d2.p.......]
+ 68 BB 97 D4 A3 CF F2 DE 01 00 00 00 FF 00 00 00 (SP+0x4B0) [h...............]
+ 2C 88 FF 6F 21 CF F2 DE 90 DB EA D5 50 8A 36 EE (SP+0x4C0) [,..o!.......P.6.]
+ 90 BB 97 D4 C1 B1 F3 DE 21 CF F2 DE 91 6E 00 00 (SP+0x4D0) [........!....n..]
+ B0 BB 97 D4 70 8A 83 D6 00 00 00 00 B0 BB 97 D4 (SP+0x4E0) [....p...........]
+ B0 BB 97 D4 B0 BB 97 D4 78 00 00 00 C5 A7 26 EA (SP+0x4F0) [........x.....&.]
+ 9B A7 26 EA E5 19 26 EA B8 BB 97 D4 9B A7 26 EA (SP+0x500) [..&...&.......&.]
+
+----------------------------------------------------
+Call stack:
+#00 pc 0034b6c0  /data/app/~~pRaB9nMqkqNWrwc-rEFM9w==/com.rockstargames.gtasa-z5zUwJJa0SZP-4qTJCCmSA==/lib/arm/libGTASA.so (_ZN14CRunningScript23LocateCharObjectCommandEi+127)
+#01 pc 0034f34c  /data/app/~~pRaB9nMqkqNWrwc-rEFM9w==/com.rockstargames.gtasa-z5zUwJJa0SZP-4qTJCCmSA==/lib/arm/libGTASA.so (_ZN14CRunningScript25ProcessCommands1100To1199Ei+247)
+#02 pc 0001ff2a  /data/user/0/com.rockstargames.gtasa/files/libCLEOPlus.so (_Z24HookOf_ProcessOneCommandP14CRunningScript+13)
+#03 pc 00054114  /data/user/0/com.rockstargames.gtasa/files/libCLEOMod.so (_Z24HookOf_ProcessOneCommandPv+251)
+#04 pc 00008274  /data/user/0/com.rockstargames.gtasa/files/libcleo.mod.so
+#05 pc 000082de  /data/user/0/com.rockstargames.gtasa/files/libcleo.mod.so
+#06 pc 0032b37a  /data/app/~~pRaB9nMqkqNWrwc-rEFM9w==/com.rockstargames.gtasa-z5zUwJJa0SZP-4qTJCCmSA==/lib/arm/libGTASA.so (_ZN14CRunningScript7ProcessEv+193)
+#07 pc 0032b160  /data/app/~~pRaB9nMqkqNWrwc-rEFM9w==/com.rockstargames.gtasa-z5zUwJJa0SZP-4qTJCCmSA==/lib/arm/libGTASA.so (_ZN11CTheScripts7ProcessEv+727)
+#08 pc 0001542c  /data/user/0/com.rockstargames.gtasa/files/libWeaponDetails.so
+#09 pc 00031afa  /data/user/0/com.rockstargames.gtasa/files/libDynamicSeason.so
+#10 pc 0006a716  /data/user/0/com.rockstargames.gtasa/files/libPedFuncs.so (_ZN9CallEventIN6Events23processScriptsEvent_tagEL10EventPhase1EFvvEJEE13EventExecutedEv+37)
+#11 pc 003f4086  /data/app/~~pRaB9nMqkqNWrwc-rEFM9w==/com.rockstargames.gtasa-z5zUwJJa0SZP-4qTJCCmSA==/lib/arm/libGTASA.so (_ZN5CGame7ProcessEv+213)
+#12 pc 00031f7c  /data/user/0/com.rockstargames.gtasa/files/libBikeFlipFix.so
+#13 pc 00026992  /data/user/0/com.rockstargames.gtasa/files/libCustomVehicleLights.so (_ZN9CallEventIN6Events20gameProcessEvent_tagEL10EventPhase1EFvvEJEE13EventExecutedEv+37)
+#14 pc 00031caa  /data/user/0/com.rockstargames.gtasa/files/libDynamicSeason.so
+#15 pc 0004c252  /data/user/0/com.rockstargames.gtasa/files/libPlaneContrail.so (_ZN9CallEventIN6Events20gameProcessEvent_tagEL10EventPhase1EFvvEJEE13EventExecutedEv+37)
+#16 pc 0000f702  /data/user/0/com.rockstargames.gtasa/files/libGlowingPickupsSAA.so (_Z18HookOf_ProcessGamev+13)
+#17 pc 000475fa  /data/user/0/com.rockstargames.gtasa/files/libCarAlarm.so (_ZN9CallEventIN6Events20gameProcessEvent_tagEL10EventPhase1EFvvEJEE13EventExecutedEv+37)
+#18 pc 000bf212  /data/user/0/com.rockstargames.gtasa/files/libMP32.so (_Z20HookOf_CGame_Processv+13)
+#19 pc 0000104a  /data/user/0/com.rockstargames.gtasa/files/libRadarRotation.SA.so (_Z18HookOf_GameProcessPv+17)
+#20 pc 00015a9a  /data/user/0/com.rockstargames.gtasa/files/libJPatch.so
+#21 pc 000177e0  /data/user/0/com.rockstargames.gtasa/files/libJPatch.so
+#22 pc 0001ffa4  /data/user/0/com.rockstargames.gtasa/files/libCLEOPlus.so (_Z20HookOf_OnGameProcessv+91)
+#23 pc 00002df2  /data/user/0/com.rockstargames.gtasa/files/libRubbishPort.so (_Z17HookOf_UpdateGamev+13)
+#24 pc 003f69e6  /data/app/~~pRaB9nMqkqNWrwc-rEFM9w==/com.rockstargames.gtasa-z5zUwJJa0SZP-4qTJCCmSA==/lib/arm/libGTASA.so (_Z4IdlePvb+237)
+#25 pc 00006bf4  /data/user/0/com.rockstargames.gtasa/files/libAdvancedSettings.SA.so
+#26 pc 003f6efc  /data/app/~~pRaB9nMqkqNWrwc-rEFM9w==/com.rockstargames.gtasa-z5zUwJJa0SZP-4qTJCCmSA==/lib/arm/libGTASA.so (_Z15AppEventHandler7RsEventPv+27)
+#27 pc 004d431c  /data/app/~~pRaB9nMqkqNWrwc-rEFM9w==/com.rockstargames.gtasa-z5zUwJJa0SZP-4qTJCCmSA==/lib/arm/libGTASA.so (_Z14RsEventHandler7RsEventPv+11)
+#28 pc 005e49fc  /data/app/~~pRaB9nMqkqNWrwc-rEFM9w==/com.rockstargames.gtasa-z5zUwJJa0SZP-4qTJCCmSA==/lib/arm/libGTASA.so (_Z11DoGameStatev+743)
+#29 pc 005e51ac  /data/app/~~pRaB9nMqkqNWrwc-rEFM9w==/com.rockstargames.gtasa-z5zUwJJa0SZP-4qTJCCmSA==/lib/arm/libGTASA.so (_Z12MainGameFuncPv+323)
+#30 pc 0026bfa2  /data/app/~~pRaB9nMqkqNWrwc-rEFM9w==/com.rockstargames.gtasa-z5zUwJJa0SZP-4qTJCCmSA==/lib/arm/libGTASA.so (_Z12ANDRunThreadPv+129)
+#31 pc 0027a1c0  /data/app/~~pRaB9nMqkqNWrwc-rEFM9w==/com.rockstargames.gtasa-z5zUwJJa0SZP-4qTJCCmSA==/lib/arm/libGTASA.so
+#32 pc 000567c4  /apex/com.android.runtime/lib/bionic/libc.so (_ZL15__pthread_startPv+41)
+#33 pc 0004d9e4  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+31)
+
+----------------------------------------------------
+		END OF REPORT
+----------------------------------------------------
+
+If you`re having problems using OFFICIAL mods, please report about this problem in our OFFICIAL server:
+		https://discord.gg/2MY7W39kBg
+Please follow the rules and head to the #help section!

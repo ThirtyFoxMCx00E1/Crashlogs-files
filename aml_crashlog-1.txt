@@ -1,0 +1,905 @@
+!!! THIS IS A CRASH LOG !!!
+If you are experiencing a crash, give us this file.
+>>> DO NOT SEND US A SCREENSHOT OF THIS FILE <<<
+
+Config variables: | g_bSimplerCrashLog = 0 | g_bNoSPInLog = 0 | g_bNoModsInLog = 0 | g_bDumpAllThreads = 1 | g_bEHUnwind = 0 | g_bMoreRegsInfo = 1 | g_bUnixBacktrace = 0 | 
+Exception Signal 11 - SIGSEGV (SEGV_MAPERR)
+Fault address: 0x31 (0x31) at 0xB2CD9376
+A POSSIBLE (!) reason of the crash:
+- An application tried to access the memory address that is unaccessible, protected or just wrong
+Library base: 0xB2C34000
+libc.so + 0xA5376
+
+----------------------------------------------------
+Short device info:
+Android SDK Version: 30
+Brand: samsung
+Device: a02
+OS Build Date: Tue Aug 15 11:36:17 +07 2023
+OS Build ID: RP1A.200720.012
+
+----------------------------------------------------
+Registers:
+R0:	1	0x1
+R1:	2108620800	0x7DAF0000
+R2:	2108620800	0x7DAF0000
+R3:	0	0x0
+R4:	1	0x1
+R5:	0	0x0
+R6:	0	0x0
+R7:	2116784400	0x7E2B9110
+R8:	2216881390	0x8422ECEE
+R9:	2216881376	0x8422ECE0
+R10:	2216881392	0x8422ECF0
+R11:	2198736440	0x830E0E38 (libGTASA.so + 0x70BE38)
+R12:	2198106732	0x8304726C (libGTASA.so + 0x67226C)
+SP:	2116784336	0x7E2B90D0
+LR:	2999817569	0xB2CD9561 (libc.so + 0xA5561)
+PC:	2999817078	0xB2CD9376 (libc.so + 0xA5376)
+CPSR:	1611399216	0x600C0030
+
+----------------------------------------------------
+List of loaded mods (count=66):
+AML Core (RusJJ aka [-=KILL MAN=-], version 1.4)
+ - GUID: net.rusjj.aml | Base: 0x0 | Path: localpath (core)
+Infinite Ammo (YourName, version 1.0)
+ - GUID: net.example.infiniteammo | Base: 0xF9A1C7CB | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//infinityammo.so
+GTA:SA Advanced Settings (ARM, version 7.4.7 CBT)
+ - GUID: advancedsettings.sa | Base: 0xFB3AC259 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libAdvancedSettings.SA.so
+Action Kill Camera (cheeseburger, version 1.1)
+ - GUID: chzbrgr.actionkillcam | Base: 0x3014C07B | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libActionKillCam.so
+GTA:SA Advanced Aiming (DK22Pac & ARM, version 1.1)
+ - GUID: advancedaiming | Base: 0x4A2B1F19 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libAdvancedAiming.SA.so
+AdvancedCam (XkiiGnss, version 2.0)
+ - GUID: xkiignss.advancedcam | Base: 0xEA7EB45B | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libAdvancedCam.so
+AimForTheCamera (KillerSA, version 2.1)
+ - GUID: net.killersa.aimforthecamera | Base: 0x59921007 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libAimForTheCamera.so
+Arrow Fix (Huynh Huu Tien, version 1.0)
+ - GUID: net.huynhtien.arrowfix | Base: 0xB91E9873 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libArrowFix32.so
+Advanced Threat Radar Circle (fadli, version 2.8)
+ - GUID: net.dliiartworks.advancedthreatradarcircle | Base: 0x3BBAD39F | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libavtdliiartworks32.so
+BASS Sound Library (RusJJ, version 1.2.1)
+ - GUID: net.rusjj.basslib | Base: 0x94265027 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libBASSMod.so
+BlipWorks (RusJJ, version 1.3.1)
+ - GUID: net.rusjj.blipworks | Base: 0x57156457 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libBlipWorks.so
+GTASA BulletTracers (RusJJ, version 1.1)
+ - GUID: net.theartemmaps.rusjj.tracers | Base: 0xB28E11BF | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libBulletTracers.so
+CLEO AudioStreams (Alexander Blade & RusJJ, version 1.4.1)
+ - GUID: net.alexblade.rusjj.audiostreams | Base: 0xCABB025 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCLEO_AudioStreams.so
+CLEO4 IniFiles (Alexander Blade & RusJJ, version 1.3)
+ - GUID: net.alexblade.rusjj.inifiles | Base: 0x4799129D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCLEO_IniFiles.so
+CLEO IntOperations (Alexander Blade & RusJJ, version 1.1)
+ - GUID: net.alexblade.rusjj.intops | Base: 0x538FB16D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCLEO_IntOperations.so
+CLEO VisualObject (TecoReacvite, version 1.0.2)
+ - GUID: net.teco.visualobject | Base: 0xB4946CE9 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCLEO_VisualObject.so
+CLEO Library (Alexander Blade & RusJJ & XMDS, version 2.0.1.10)
+ - GUID: net.rusjj.cleolib | Base: 0xB8BB0ECB | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCLEOMod.so
+CLEOPlus (JuniorDjjr & RusJJ, version 1.0)
+ - GUID: net.juniordjjr.rusjj.cleoplus | Base: 0xA7C6A4AD | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCLEOPlus.so
+Combat Hit Mark (cheeseburger, version 1.1)
+ - GUID: chzbrgr.combathitmark | Base: 0x218F6C21 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCombatHitMark.so
+GTA:SA Crosshair Fix (RusJJ, version 1.0)
+ - GUID: net.rusjj.gtasa.crosshairfix | Base: 0x5861CD25 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libcrosshairfix.so
+GTA:SA CustomLoadingBar (ARM, version 2.1)
+ - GUID: arm.customloadingbar | Base: 0x287B886D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCustomLoadingBar.so
+ExGangWars (SilentPL & RusJJ, version 1.0)
+ - GUID: net.silent.rusjj.exgangwars | Base: 0xF396F70D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libExGangWars.so
+GTA:SA Speedometer (GTA Community & ARM, version 1.7)
+ - GUID: fhspeedometer | Base: 0x6F100AA1 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libFHSpeedometer.so
+GTA:SA Fullscreen Splashes (RusJJ, version 1.1)
+ - GUID: net.rusjj.fullsplash | Base: 0x88B04C9B | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libFullscreenSplash.so
+GTA:SA GPS (DK22Pac & JuniorDjjr & juicermv & RusJJ, version 1.5)
+ - GUID: net.dk22pac.rusjj.gps | Base: 0x3E86E69F | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libGPS.so
+GrenadeAim (user, version 1.9.4)
+ - GUID: net.local.grenadeaim | Base: 0xA5EC3197 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libGrenadeAim.so
+Wanted Radar (RusJJ, version 1.0)
+ - GUID: net.rusjj.wantedradar | Base: 0x26010319 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libGTA_WantedRadar.so
+GTA:SA imfx (DK22Pac & ARM, version 2.0)
+ - GUID: imfx | Base: 0x3CAB6F85 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libImfx.so
+ImprovedMove AML (JuniorDjjr / Metalogic, version 1.00)
+ - GUID: com.juniordjjr.improvedmove | Base: 0x6FB98E1D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libImprovedMove32.so
+IVPickups (PandaGaming15 & RusJJ, version 1.0.3)
+ - GUID: net.pandagaming.rusjj.4pickups | Base: 0x8A682B69 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libIVPickups.so
+JPatch (RusJJ, version 1.10.2.1)
+ - GUID: net.rusjj.jpatch | Base: 0x6879FEC1 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libJPatch.so
+Manual Drive-by (cheeseburger, version 1.1)
+ - GUID: chzbrgr.manualdriveby | Base: 0xCC9FFD97 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libManualDriveby.so
+Manual Reload (ErennRii, version 2.0)
+ - GUID: net.modder.manualreload | Base: 0x9FB12C09 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libManualReload.so
+MapMenuTweaks (cheeseburger, version 1.0)
+ - GUID: chzbrgr.mapmenutweaks | Base: 0x56977B8D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libMapMenuTweaks.so
+GTA:SA ColorMarker (Pandagaming, version 2.0)
+ - GUID: net.pandagaming.colormarker | Base: 0xFCCEC765 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libMarkerStyle.so
+GTA:SA More Settings (RusJJ, version 1.4)
+ - GUID: net.rusjj.gtasa.moresettings | Base: 0xB1FDDAC3 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libMoreSettings.so
+PCIntro (ThirtyFoxMC, version 12.0)
+ - GUID: mc.thirtyfox.pcintro | Base: 0x502CC5F5 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libPCIntro32.so
+Plane Contrail (cheeseburger, version 1.0)
+ - GUID: chzbrgr.planecontrail | Base: 0x89D7B7FD | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libPlaneContrail.so
+Project 2DFX (ThirteenAG & RusJJ, version 1.1)
+ - GUID: net.thirteenag.rusjj.gtasa.2dfx | Base: 0x77A1E861 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libProject2DFX.so
+Prop Interaction (cheeseburger, version 1.1)
+ - GUID: chzbrgr.propinteraction | Base: 0xB582E625 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libPropInteraction.so
+Radar ShapeR (RusJJ, version 2.1)
+ - GUID: net.rusjj.radarshaper | Base: 0xA2FB5E01 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libRadarShapeR.so
+Real Recoil Camera (FleetView, version 1.6)
+ - GUID: net.acumen.realrecoil | Base: 0x484C876B | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libRealRecoil32.so
+Real Skybox (Junior Djrr & RusJJ, version 0.4)
+ - GUID: net.juniordjjr.rusjj.realskybox | Base: 0xC65BF7AB | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libRealSkybox.so
+RealTrafficFix (JuniorDjjr & RusJJ, version 1.1)
+ - GUID: net.juniordjjr.rusjj.rtf | Base: 0x2DBCCDB1 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libRealTrafficFix.so
+Rubbish (re3 Team & gennariarmando & RusJJ, version 1.1)
+ - GUID: net.re3.gennariarmando.rusjj.rubbish | Base: 0x63F30F65 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libRubbishPort.so
+VCamLook (Fadli, version 2.7)
+ - GUID: net.dliiartworks.vcamlook | Base: 0x651CFC47 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libsa.camfxdliiartworks32.so
+VehLightAdjuster (PandaGaming, version 1.0)
+ - GUID: sa.vehlight.adjuster | Base: 0x719C5929 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libSA.VehLight.Adjuster.so
+SAUtils (RusJJ, version 1.6)
+ - GUID: net.rusjj.gtasa.utils | Base: 0x4E983881 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libSAUtils.so
+Screen Kill Effects (cheeseburger, version 1.0.1)
+ - GUID: chzbrgr.screenkillfx | Base: 0xF7784FD7 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libScreenKillFX.so
+SkyGFX Mobile Beta (aap & TheOfficialFloW & RusJJ, version 0.6)
+ - GUID: net.rusjj.skygfxmobile | Base: 0xDCA33883 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libSkyGFXMobile.so
+Sniper Recoil (dittzY, version 1.0)
+ - GUID: dittzy.sniperrecoil | Base: 0x69B28E7D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libSniperRecoil32.so
+Sniper While Crouching (dittzY, version 7.0)
+ - GUID: net.dittzy.sniperwhilecrouching | Base: 0xC155AA51 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libSniperWhileCrouching32.so
+GTA StarrySkies (RusJJ, version 1.1)
+ - GUID: net.rusjj.starryskies | Base: 0xA8068E0B | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libStarrySkies.so
+GTASA Timecyc24 (GTAmodding & RusJJ, version 1.3)
+ - GUID: net.rusjj.timecyc24 | Base: 0xD408DBB | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libTimecyc24.so
+Weapon Details (Android port) (ArtemQa146 & port, version 1.3)
+ - GUID: com.wdport.weapondetails | Base: 0x9ADABE25 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libWeaponDetails.so
+Weapon On Player (Realisrared, version 2.0)
+ - GUID: net.realisrared.weapononplayer2 | Base: 0xF8880DFF | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libWeaponOnPlayer.so
+weapwheeldliiartworks (Fadli, version 1.3)
+ - GUID: com.fadli.weapwheeldliiartworks | Base: 0x177C20CF | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libweapwheeldliiartworks32.so
+GTA:SA Wider Headlights(32-bit) (groot, version 1.4)
+ - GUID: net.groot.widerheadlights | Base: 0xAAF064BD | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libWiderHeadlights.so
+rhinocannon (xtherzzloader, version 1.0)
+ - GUID: net.rhinocannon.gtasa | Base: 0x9CDB68B9 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libXTLRhinoCannon32.so
+YNz Vehicle Wind And Trail Effects (GtaSaAML, version 3.0)
+ - GUID: net.gtasaamlexample.windeffects | Base: 0x739895B7 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//YNzVehWTE.so
+MP Multiplayer (ThirtyFoxMCx00E1, version 3.04.6)
+ - GUID: net.thirtyfox.mp | Base: 0xA8E4670F | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libMP32.so
+Reload Indicator (cheeseburger, version 1.0)
+ - GUID: chzbrgr.reloadindicator | Base: 0x53EF9EFF | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libReloadIndicator.so
+Soundscape Immersion (cheeseburger, version 1.1)
+ - GUID: chzbrgr.soundscapeimmersion | Base: 0x557ACF05 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libSoundscapeImmersion.so
+Npc_Real_life_Modol (YtModol, version 2.4)
+ - GUID: net.ytmodol.npcreallifemodol | Base: 0x52512D75 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libNpc_Real_life_Modol.so
+Wanted Music & Evade SFX (cheeseburger, version 1.0)
+ - GUID: chzbrgr.wantedmusicevadesfx | Base: 0xB3C37F8D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libWantedMusicEvadeSFX.so
+Ped Skills Improvements (cheeseburger, version 1.3)
+ - GUID: chzbrgr.pedskillsimprovements | Base: 0xB7CA1E61 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libPedSkillsImprovements.so
+
+----------------------------------------------------
+Printing 1296 bytes of stack:
+ 65 79 0A 81 00 00 AF 7D 00 00 00 00 00 00 00 00 (SP+0x000) [ey.....}........]
+ 10 91 2B 7E EE EC 22 84 E0 EC 22 84 F0 EC 22 84 (SP+0x010) [..+~.."..."...".]
+ 38 0E 0E 83 61 95 CD B2 00 00 00 00 20 00 00 00 (SP+0x020) [8...a...........]
+ 10 91 2B 7E E3 C0 C3 82 00 00 00 00 44 0E 0E 83 (SP+0x030) [..+~........D...]
+ 38 91 2B 7E C7 E8 C9 82 00 A8 55 92 30 FB 6D B4 (SP+0x040) [8.+~......U.0.m.]
+ D8 D0 51 92 19 00 00 00 B8 1E 63 70 30 FB 6D B4 (SP+0x050) [..Q.......cp0.m.]
+ 40 EC DA B2 01 00 00 00 58 91 2B 7E A3 0F C4 82 (SP+0x060) [@.......X.+~....]
+ 04 00 00 00 0F 00 00 00 B8 1E 63 70 21 0F C4 82 (SP+0x070) [..........cp!...]
+ D0 D0 51 92 00 FF AB B3 80 91 2B 7E C1 F1 C4 82 (SP+0x080) [..Q.......+~....]
+ 21 0F C4 82 C5 4D 00 00 5C F2 CE B2 DC 91 2B 7E (SP+0x090) [!....M..\.....+~]
+ 00 F0 0F 00 A0 91 2B 7E A0 91 2B 7E A0 91 2B 7E (SP+0x0A0) [......+~..+~..+~]
+ 78 00 00 00 D5 EC CD B2 AB EC CD B2 75 81 C9 B2 (SP+0x0B0) [x...........u...]
+ A8 91 2B 7E AB EC CD B2 A0 91 2B 7E 00 00 00 00 (SP+0x0C0) [..+~......+~....]
+ A0 91 7C 7B A0 81 1B 7E E7 4D 00 00 F4 45 00 00 (SP+0x0D0) [..|{...~.M...E..]
+ 00 00 00 00 00 C0 1B 7E A0 D1 0F 00 00 10 00 00 (SP+0x0E0) [.......~........]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x0F0) [................]
+ 29 F1 C4 82 D0 D0 51 92 00 00 00 00 04 1A 00 88 (SP+0x100) [).....Q.........]
+ 00 00 00 00 00 80 21 84 00 00 00 00 A0 91 2B 7E (SP+0x110) [......!.......+~]
+ 01 00 00 00 00 00 00 00 00 C0 1B 7E 00 10 10 00 (SP+0x120) [...........~....]
+ 00 D0 1B 7E 00 F0 0F 00 73 74 61 63 6B 5F 61 6E (SP+0x130) [...~....stack_an]
+ 64 5F 74 6C 73 3A 31 39 39 34 33 00 00 00 00 00 (SP+0x140) [d_tls:19943.....]
+ 00 00 00 00 00 00 00 00 00 00 00 00 30 92 2B 7E (SP+0x150) [............0.+~]
+ 75 6E 64 65 66 69 6E 65 64 20 73 79 6D 62 6F 6C (SP+0x160) [undefined.symbol]
+ 3A 20 4A 4E 49 5F 4F 6E 4C 6F 61 64 00 00 00 00 (SP+0x170) [:.JNI_OnLoad....]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x180) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x190) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x1A0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x1B0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x1C0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x1D0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x1E0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x1F0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x200) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x210) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x220) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x230) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x240) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x250) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x260) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x270) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x280) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x290) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x2A0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x2B0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x2C0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x2D0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x2E0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x2F0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x300) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x310) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x320) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x330) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x340) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x350) [................]
+ 80 94 2B 7E 16 00 00 00 00 00 00 00 00 00 00 00 (SP+0x360) [..+~............]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x370) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 80 94 2B 7E (SP+0x380) [..............+~]
+ 84 9E C5 B2 A0 91 2B 7E 00 00 00 00 00 00 00 00 (SP+0x390) [......+~........]
+ 00 00 00 00 65 79 0A 81 00 00 00 00 00 A8 55 92 (SP+0x3A0) [....ey........U.]
+ 01 00 00 00 00 FA D3 92 00 00 00 00 00 00 00 00 (SP+0x3B0) [................]
+ 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 (SP+0x3C0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x3D0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x3E0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x3F0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x400) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x410) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x420) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x430) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x440) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x450) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x460) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x470) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x480) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x490) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x4A0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x4B0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x4C0) [................]
+ 01 00 00 00 00 FF AB B3 01 00 00 00 40 EC DA B2 (SP+0x4D0) [............@...]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x4E0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x4F0) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x500) [................]
+
+----------------------------------------------------
+Call stack (of all threads):
+----- pid 17908 -----
+Cmd line: com.rockstargames.gtasa
+
+"stargames.gtasa" sysTid=17908
+#00 pc 0009bf4c  /apex/com.android.runtime/lib/bionic/libc.so (__epoll_pwait+20)
+#01 pc 0006dd51  /apex/com.android.runtime/lib/bionic/libc.so (epoll_wait+16)
+#02 pc 00011c89  /system/lib/libutils.so (android::Looper::pollInner(int)+128)
+#03 pc 00011bb3  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+62)
+#04 pc 000be1b3  /system/lib/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long long, int)+24)
+#05 pc 00239e0d  /system/framework/arm/boot-framework.oat (art_jni_trampoline+92)
+#06 pc 005a98e3  /system/framework/arm/boot-framework.oat (android.os.MessageQueue.next+178)
+#07 pc 005a6ac3  /system/framework/arm/boot-framework.oat (android.os.Looper.loop+618)
+#08 pc 003cd401  /system/framework/arm/boot-framework.oat (android.app.ActivityThread.main+776)
+#09 pc 000d47d5  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub_internal+68)
+#10 pc 004f2559  /apex/com.android.art/lib/libart.so (art_quick_invoke_static_stub+276)
+#11 pc 0012cb3f  /apex/com.android.art/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+166)
+#12 pc 003ffc1b  /apex/com.android.art/lib/libart.so (art::InvokeMethod(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned int)+906)
+#13 pc 003a0173  /apex/com.android.art/lib/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*)+30)
+#14 pc 00083667  /apex/com.android.art/javalib/arm/boot.oat (art_jni_trampoline+110)
+#15 pc 00903791  /system/framework/arm/boot-framework.oat (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+112)
+#16 pc 0090bc97  /system/framework/arm/boot-framework.oat (com.android.internal.os.ZygoteInit.main+2086)
+#17 pc 000d47d5  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub_internal+68)
+#18 pc 004f2559  /apex/com.android.art/lib/libart.so (art_quick_invoke_static_stub+276)
+#19 pc 0012cb3f  /apex/com.android.art/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+166)
+#20 pc 003fed77  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeWithVarArgs<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, std::__va_list)+350)
+#21 pc 003ff01b  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+42)
+#22 pc 00328aad  /apex/com.android.art/lib/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+496)
+#23 pc 00068a25  /system/lib/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+28)
+#24 pc 0006eef9  /system/lib/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+608)
+#25 pc 00002e55  /system/bin/app_process32 (main+976)
+#26 pc 0005d4d1  /apex/com.android.runtime/lib/bionic/libc.so (__libc_init+68)
+
+"Signal Catcher" sysTid=19792
+#00 pc 0009b954  /apex/com.android.runtime/lib/bionic/libc.so (__rt_sigtimedwait+12)
+#01 pc 0006c9ab  /apex/com.android.runtime/lib/bionic/libc.so (sigwait+42)
+#02 pc 0042205d  /apex/com.android.art/lib/libart.so (art::SignalCatcher::WaitForSignal(art::Thread*, art::SignalSet&)+212)
+#03 pc 00420de1  /apex/com.android.art/lib/libart.so (art::SignalCatcher::Run(void*)+200)
+#04 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#05 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"Jit thread pool" sysTid=19793
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00131bb3  /apex/com.android.art/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+82)
+#02 pc 00460a87  /apex/com.android.art/lib/libart.so (art::ThreadPool::GetTask(art::Thread*)+58)
+#03 pc 00460199  /apex/com.android.art/lib/libart.so (art::ThreadPoolWorker::Run()+72)
+#04 pc 0045fdd9  /apex/com.android.art/lib/libart.so (art::ThreadPoolWorker::Callback(void*)+116)
+#05 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#06 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"HeapTaskDaemon" sysTid=19794
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00131bb3  /apex/com.android.art/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+82)
+#02 pc 00219555  /apex/com.android.art/lib/libart.so (art::gc::TaskProcessor::GetTask(art::Thread*)+316)
+#03 pc 00219c45  /apex/com.android.art/lib/libart.so (art::gc::TaskProcessor::RunAllTasks(art::Thread*)+48)
+#04 pc 000106db  /apex/com.android.art/javalib/arm/boot-core-libart.oat (art_jni_trampoline+74)
+#05 pc 00047b25  /apex/com.android.art/javalib/arm/boot-core-libart.oat (java.lang.Daemons$HeapTaskDaemon.runInternal+172)
+#06 pc 0001d6db  /apex/com.android.art/javalib/arm/boot-core-libart.oat (java.lang.Daemons$Daemon.run+146)
+#07 pc 0012f399  /apex/com.android.art/javalib/arm/boot.oat (java.lang.Thread.run+64)
+#08 pc 000d47d5  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub_internal+68)
+#09 pc 004f2427  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub+282)
+#10 pc 0012cb2d  /apex/com.android.art/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+148)
+#11 pc 003ff4df  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+374)
+#12 pc 003ff5ef  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, jvalue const*)+42)
+#13 pc 00440b35  /apex/com.android.art/lib/libart.so (art::Thread::CreateCallback(void*)+1056)
+#14 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#15 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"ReferenceQueueD" sysTid=19795
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00131bb3  /apex/com.android.art/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+82)
+#02 pc 00374271  /apex/com.android.art/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+480)
+#03 pc 0037550d  /apex/com.android.art/lib/libart.so (art::Monitor::Wait(art::Thread*, art::ObjPtr<art::mirror::Object>, long long, int, bool, art::ThreadState)+176)
+#04 pc 0038f59d  /apex/com.android.art/lib/libart.so (art::Object_waitJI(_JNIEnv*, _jobject*, long long, int)+36)
+#05 pc 0007e25d  /apex/com.android.art/javalib/arm/boot.oat (art_jni_trampoline+92)
+#06 pc 00087fe9  /apex/com.android.art/javalib/arm/boot.oat (java.lang.Object.wait+48)
+#07 pc 00047ba1  /apex/com.android.art/javalib/arm/boot-core-libart.oat (java.lang.Daemons$ReferenceQueueDaemon.runInternal+104)
+#08 pc 0001d6db  /apex/com.android.art/javalib/arm/boot-core-libart.oat (java.lang.Daemons$Daemon.run+146)
+#09 pc 0012f399  /apex/com.android.art/javalib/arm/boot.oat (java.lang.Thread.run+64)
+#10 pc 000d47d5  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub_internal+68)
+#11 pc 004f2427  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub+282)
+#12 pc 0012cb2d  /apex/com.android.art/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+148)
+#13 pc 003ff4df  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+374)
+#14 pc 003ff5ef  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, jvalue const*)+42)
+#15 pc 00440b35  /apex/com.android.art/lib/libart.so (art::Thread::CreateCallback(void*)+1056)
+#16 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#17 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"FinalizerDaemon" sysTid=19796
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00131bb3  /apex/com.android.art/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+82)
+#02 pc 00374271  /apex/com.android.art/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+480)
+#03 pc 0037550d  /apex/com.android.art/lib/libart.so (art::Monitor::Wait(art::Thread*, art::ObjPtr<art::mirror::Object>, long long, int, bool, art::ThreadState)+176)
+#04 pc 0038f59d  /apex/com.android.art/lib/libart.so (art::Object_waitJI(_JNIEnv*, _jobject*, long long, int)+36)
+#05 pc 0007e25d  /apex/com.android.art/javalib/arm/boot.oat (art_jni_trampoline+92)
+#06 pc 000984db  /apex/com.android.art/javalib/arm/boot.oat (java.lang.ref.ReferenceQueue.remove+354)
+#07 pc 00098361  /apex/com.android.art/javalib/arm/boot.oat (java.lang.ref.ReferenceQueue.remove+40)
+#08 pc 000472dd  /apex/com.android.art/javalib/arm/boot-core-libart.oat (java.lang.Daemons$FinalizerDaemon.runInternal+332)
+#09 pc 0001d6db  /apex/com.android.art/javalib/arm/boot-core-libart.oat (java.lang.Daemons$Daemon.run+146)
+#10 pc 0012f399  /apex/com.android.art/javalib/arm/boot.oat (java.lang.Thread.run+64)
+#11 pc 000d47d5  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub_internal+68)
+#12 pc 004f2427  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub+282)
+#13 pc 0012cb2d  /apex/com.android.art/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+148)
+#14 pc 003ff4df  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+374)
+#15 pc 003ff5ef  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, jvalue const*)+42)
+#16 pc 00440b35  /apex/com.android.art/lib/libart.so (art::Thread::CreateCallback(void*)+1056)
+#17 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#18 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"FinalizerWatchd" sysTid=19797
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00131bb3  /apex/com.android.art/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+82)
+#02 pc 00374271  /apex/com.android.art/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+480)
+#03 pc 0037550d  /apex/com.android.art/lib/libart.so (art::Monitor::Wait(art::Thread*, art::ObjPtr<art::mirror::Object>, long long, int, bool, art::ThreadState)+176)
+#04 pc 0038f59d  /apex/com.android.art/lib/libart.so (art::Object_waitJI(_JNIEnv*, _jobject*, long long, int)+36)
+#05 pc 0007e25d  /apex/com.android.art/javalib/arm/boot.oat (art_jni_trampoline+92)
+#06 pc 00087fe9  /apex/com.android.art/javalib/arm/boot.oat (java.lang.Object.wait+48)
+#07 pc 00047685  /apex/com.android.art/javalib/arm/boot-core-libart.oat (java.lang.Daemons$FinalizerWatchdogDaemon.sleepUntilNeeded+52)
+#08 pc 0004796d  /apex/com.android.art/javalib/arm/boot-core-libart.oat (java.lang.Daemons$FinalizerWatchdogDaemon.runInternal+60)
+#09 pc 0001d6db  /apex/com.android.art/javalib/arm/boot-core-libart.oat (java.lang.Daemons$Daemon.run+146)
+#10 pc 0012f399  /apex/com.android.art/javalib/arm/boot.oat (java.lang.Thread.run+64)
+#11 pc 000d47d5  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub_internal+68)
+#12 pc 004f2427  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub+282)
+#13 pc 0012cb2d  /apex/com.android.art/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+148)
+#14 pc 003ff4df  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+374)
+#15 pc 003ff5ef  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, jvalue const*)+42)
+#16 pc 00440b35  /apex/com.android.art/lib/libart.so (art::Thread::CreateCallback(void*)+1056)
+#17 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#18 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"Binder:17908_1" sysTid=19798
+#00 pc 0009ae70  /apex/com.android.runtime/lib/bionic/libc.so (__ioctl+8)
+#01 pc 00069383  /apex/com.android.runtime/lib/bionic/libc.so (ioctl+26)
+#02 pc 0003a9d3  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+238)
+#03 pc 0003aba1  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+#04 pc 0003b4f9  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+44)
+#05 pc 000559f7  /system/lib/libbinder.so (android::PoolThread::threadLoop()+266)
+#06 pc 0000ee85  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+168)
+#07 pc 0006f17f  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+86)
+#08 pc 0000e9cd  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+256)
+#09 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#10 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"Binder:17908_2" sysTid=19799
+#00 pc 0009ae70  /apex/com.android.runtime/lib/bionic/libc.so (__ioctl+8)
+#01 pc 00069383  /apex/com.android.runtime/lib/bionic/libc.so (ioctl+26)
+#02 pc 0003a9d3  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+238)
+#03 pc 0003aba1  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+#04 pc 0003b4f9  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+44)
+#05 pc 000559f7  /system/lib/libbinder.so (android::PoolThread::threadLoop()+266)
+#06 pc 0000ee85  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+168)
+#07 pc 0006f17f  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+86)
+#08 pc 0000e9cd  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+256)
+#09 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#10 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"Binder:17908_3" sysTid=19800
+#00 pc 0009ae70  /apex/com.android.runtime/lib/bionic/libc.so (__ioctl+8)
+#01 pc 00069383  /apex/com.android.runtime/lib/bionic/libc.so (ioctl+26)
+#02 pc 0003a9d3  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+238)
+#03 pc 0003aba1  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+#04 pc 0003b4f9  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+44)
+#05 pc 000559f7  /system/lib/libbinder.so (android::PoolThread::threadLoop()+266)
+#06 pc 0000ee85  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+168)
+#07 pc 0006f17f  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+86)
+#08 pc 0000e9cd  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+256)
+#09 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#10 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"Binder:17908_4" sysTid=19802
+#00 pc 0009ae70  /apex/com.android.runtime/lib/bionic/libc.so (__ioctl+8)
+#01 pc 00069383  /apex/com.android.runtime/lib/bionic/libc.so (ioctl+26)
+#02 pc 0003a9d3  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+238)
+#03 pc 0003aba1  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+#04 pc 0003b4f9  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+44)
+#05 pc 000559f7  /system/lib/libbinder.so (android::PoolThread::threadLoop()+266)
+#06 pc 0000ee85  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+168)
+#07 pc 0006f17f  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+86)
+#08 pc 0000e9cd  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+256)
+#09 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#10 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"Profile Saver" sysTid=19805
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00131bb3  /apex/com.android.art/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+82)
+#02 pc 002734c1  /apex/com.android.art/lib/libart.so (art::ProfileSaver::Run()+376)
+#03 pc 00276ef3  /apex/com.android.art/lib/libart.so (art::ProfileSaver::RunProfileSaverThread(void*)+106)
+#04 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#05 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"RenderThread" sysTid=19808
+#00 pc 0009bf4c  /apex/com.android.runtime/lib/bionic/libc.so (__epoll_pwait+20)
+#01 pc 0006dd51  /apex/com.android.runtime/lib/bionic/libc.so (epoll_wait+16)
+#02 pc 00011c89  /system/lib/libutils.so (android::Looper::pollInner(int)+128)
+#03 pc 00011bb3  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+62)
+#04 pc 003a6d23  /system/lib/libhwui.so (android::uirenderer::ThreadBase::waitForWork()+86)
+#05 pc 003be0cb  /system/lib/libhwui.so (android::uirenderer::renderthread::RenderThread::threadLoop()+66)
+#06 pc 0000ee85  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+168)
+#07 pc 0000e9cd  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+256)
+#08 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#09 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"ged-swd" sysTid=19811
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 000aa353  /apex/com.android.runtime/lib/bionic/libc.so (pthread_cond_wait+32)
+#03 pc 00006a44  /vendor/lib/libged.so (ged_cond_lock+36)
+#04 pc 00006e48  /vendor/lib/libged.so (ged_worker_thread+116)
+#05 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#06 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"InsetsAnimation" sysTid=19813
+#00 pc 0009bf4c  /apex/com.android.runtime/lib/bionic/libc.so (__epoll_pwait+20)
+#01 pc 0006dd51  /apex/com.android.runtime/lib/bionic/libc.so (epoll_wait+16)
+#02 pc 00011c89  /system/lib/libutils.so (android::Looper::pollInner(int)+128)
+#03 pc 00011bb3  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+62)
+#04 pc 000be1b3  /system/lib/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long long, int)+24)
+#05 pc 00239e0d  /system/framework/arm/boot-framework.oat (art_jni_trampoline+92)
+#06 pc 005a98e3  /system/framework/arm/boot-framework.oat (android.os.MessageQueue.next+178)
+#07 pc 005a6ac3  /system/framework/arm/boot-framework.oat (android.os.Looper.loop+618)
+#08 pc 005a5ddf  /system/framework/arm/boot-framework.oat (android.os.HandlerThread.run+478)
+#09 pc 000d47d5  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub_internal+68)
+#10 pc 004f2427  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub+282)
+#11 pc 0012cb2d  /apex/com.android.art/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+148)
+#12 pc 003ff4df  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+374)
+#13 pc 003ff5ef  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, jvalue const*)+42)
+#14 pc 00440b35  /apex/com.android.art/lib/libart.so (art::Thread::CreateCallback(void*)+1056)
+#15 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#16 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"stargames.gtasa" sysTid=19815
+#00 pc 0009b6d4  /apex/com.android.runtime/lib/bionic/libc.so (nanosleep+12)
+#01 pc 0000ad29  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libthreadfix.so (std::__ndk1::this_thread::sleep_for(std::__ndk1::chrono::duration<long long, std::__ndk1::ratio<1ll, 1000000000ll> > const&)+104)
+#02 pc 0000a015  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libthreadfix.so (Routine()+36)
+#03 pc 0000a087  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libthreadfix.so (void* std::__ndk1::__thread_proxy<std::__ndk1::tuple<std::__ndk1::unique_ptr<std::__ndk1::__thread_struct, std::__ndk1::default_delete<std::__ndk1::__thread_struct> >, void (*)()> >(void*)+22)
+#04 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#05 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"OkHttp Connecti" sysTid=19819
+#00 pc 0005e3cc  /apex/com.android.runtime/lib/bionic/libc.so (syscall+32)
+#01 pc 0043fa43  /apex/com.android.art/lib/libart.so (art::Thread::Park(bool, long long)+1034)
+#02 pc 003a4f3b  /apex/com.android.art/lib/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long long)+502)
+#03 pc 0007ff39  /apex/com.android.art/javalib/arm/boot.oat (art_jni_trampoline+96)
+#04 pc 0017fec1  /apex/com.android.art/javalib/arm/boot.oat (java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos+808)
+#05 pc 0026e7d3  /apex/com.android.art/javalib/arm/boot.oat (java.util.concurrent.LinkedBlockingQueue.poll+178)
+#06 pc 0023e449  /apex/com.android.art/javalib/arm/boot.oat (java.util.concurrent.ThreadPoolExecutor.getTask+360)
+#07 pc 0023f59f  /apex/com.android.art/javalib/arm/boot.oat (java.util.concurrent.ThreadPoolExecutor.runWorker+222)
+#08 pc 0023d107  /apex/com.android.art/javalib/arm/boot.oat (java.util.concurrent.ThreadPoolExecutor$Worker.run+54)
+#09 pc 0012f399  /apex/com.android.art/javalib/arm/boot.oat (java.lang.Thread.run+64)
+#10 pc 000d47d5  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub_internal+68)
+#11 pc 004f2427  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub+282)
+#12 pc 0012cb2d  /apex/com.android.art/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+148)
+#13 pc 003ff4df  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+374)
+#14 pc 003ff5ef  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, jvalue const*)+42)
+#15 pc 00440b35  /apex/com.android.art/lib/libart.so (art::Thread::CreateCallback(void*)+1056)
+#16 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#17 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"Okio Watchdog" sysTid=19820
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00131bb3  /apex/com.android.art/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+82)
+#02 pc 00374271  /apex/com.android.art/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+480)
+#03 pc 0037550d  /apex/com.android.art/lib/libart.so (art::Monitor::Wait(art::Thread*, art::ObjPtr<art::mirror::Object>, long long, int, bool, art::ThreadState)+176)
+#04 pc 0038f59d  /apex/com.android.art/lib/libart.so (art::Object_waitJI(_JNIEnv*, _jobject*, long long, int)+36)
+#05 pc 0007e25d  /apex/com.android.art/javalib/arm/boot.oat (art_jni_trampoline+92)
+#06 pc 00087fe9  /apex/com.android.art/javalib/arm/boot.oat (java.lang.Object.wait+48)
+#07 pc 00031cad  /apex/com.android.art/javalib/arm/boot-okhttp.oat (com.android.okhttp.okio.AsyncTimeout.awaitTimeout+100)
+#08 pc 00029603  /apex/com.android.art/javalib/arm/boot-okhttp.oat (com.android.okhttp.okio.AsyncTimeout$Watchdog.run+42)
+#09 pc 000d47d5  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub_internal+68)
+#10 pc 004f2427  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub+282)
+#11 pc 0012cb2d  /apex/com.android.art/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+148)
+#12 pc 003ff4df  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+374)
+#13 pc 003ff5ef  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, jvalue const*)+42)
+#14 pc 00440b35  /apex/com.android.art/lib/libart.so (art::Thread::CreateCallback(void*)+1056)
+#15 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#16 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"AudioTrack" sysTid=19830
+#00 pc 0005e3cc  /apex/com.android.runtime/lib/bionic/libc.so (syscall+32)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 000aa3b9  /apex/com.android.runtime/lib/bionic/libc.so (pthread_cond_timedwait+76)
+#03 pc 0004d383  /system/lib/libaudioclient.so (android::AudioTrack::AudioTrackThread::threadLoop()+350)
+#04 pc 0000ef0d  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+304)
+#05 pc 0006f17f  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+86)
+#06 pc 0000e9cd  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+256)
+#07 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#08 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"stargames.gtasa" sysTid=19831
+#00 pc 0005e3cc  /apex/com.android.runtime/lib/bionic/libc.so (syscall+32)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 000aa41b  /apex/com.android.runtime/lib/bionic/libc.so (pthread_cond_timedwait_monotonic_np+60)
+#03 pc 0000ca9f  /data/user/0/com.rockstargames.gtasa/files/bass_mod.so
+#04 pc 0001a7d5  /data/user/0/com.rockstargames.gtasa/files/bass_mod.so
+#05 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#06 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"stargames.gtasa" sysTid=19832
+#00 pc 0005e3cc  /apex/com.android.runtime/lib/bionic/libc.so (syscall+32)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 000aa41b  /apex/com.android.runtime/lib/bionic/libc.so (pthread_cond_timedwait_monotonic_np+60)
+#03 pc 0000ca9f  /data/user/0/com.rockstargames.gtasa/files/bass_mod.so
+#04 pc 0000c82d  /data/user/0/com.rockstargames.gtasa/files/bass_mod.so
+#05 pc 0000c8c7  /data/user/0/com.rockstargames.gtasa/files/bass_mod.so
+#06 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#07 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"stargames.gtasa" sysTid=19833
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 000aa353  /apex/com.android.runtime/lib/bionic/libc.so (pthread_cond_wait+32)
+#03 pc 0000caa5  /data/user/0/com.rockstargames.gtasa/files/bass_mod.so
+#04 pc 0000c925  /data/user/0/com.rockstargames.gtasa/files/bass_mod.so
+#05 pc 0000c8c7  /data/user/0/com.rockstargames.gtasa/files/bass_mod.so
+#06 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#07 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"stargames.gtasa" sysTid=19834
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 000aa353  /apex/com.android.runtime/lib/bionic/libc.so (pthread_cond_wait+32)
+#03 pc 0000caa5  /data/user/0/com.rockstargames.gtasa/files/bass_mod.so
+#04 pc 00018947  /data/user/0/com.rockstargames.gtasa/files/bass_mod.so
+#05 pc 0000c8c7  /data/user/0/com.rockstargames.gtasa/files/bass_mod.so
+#06 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#07 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"stargames.gtasa" sysTid=19835
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 000aa353  /apex/com.android.runtime/lib/bionic/libc.so (pthread_cond_wait+32)
+#03 pc 0000caa5  /data/user/0/com.rockstargames.gtasa/files/bass_mod.so
+#04 pc 00018b13  /data/user/0/com.rockstargames.gtasa/files/bass_mod.so
+#05 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#06 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"stargames.gtasa" sysTid=19836
+#00 pc 0009c05c  /apex/com.android.runtime/lib/bionic/libc.so (__ppoll+20)
+#01 pc 0006ad47  /apex/com.android.runtime/lib/bionic/libc.so (poll+54)
+#02 pc 001240fd  /data/user/0/com.rockstargames.gtasa/files/libMP32.so (deleted)
+#03 pc 00132b93  /data/user/0/com.rockstargames.gtasa/files/libMP32.so (deleted)
+#04 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#05 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"stargames.gtasa" sysTid=19837
+#00 pc 0009b6d4  /apex/com.android.runtime/lib/bionic/libc.so (nanosleep+12)
+#01 pc 0022561b  /data/user/0/com.rockstargames.gtasa/files/libMP32.so (deleted)
+#02 pc 001278f5  /data/user/0/com.rockstargames.gtasa/files/libMP32.so (deleted)
+#03 pc 00132b93  /data/user/0/com.rockstargames.gtasa/files/libMP32.so (deleted)
+#04 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#05 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"stargames.gtasa" sysTid=19838
+#00 pc 0009b6d4  /apex/com.android.runtime/lib/bionic/libc.so (nanosleep+12)
+#01 pc 0022561b  /data/user/0/com.rockstargames.gtasa/files/libMP32.so (deleted)
+#02 pc 0012d3f1  /data/user/0/com.rockstargames.gtasa/files/libMP32.so (deleted)
+#03 pc 00132b93  /data/user/0/com.rockstargames.gtasa/files/libMP32.so (deleted)
+#04 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#05 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"NVEvent" sysTid=19909
+#00 pc 0009b6d4  /apex/com.android.runtime/lib/bionic/libc.so (nanosleep+12)
+#01 pc 0006f4f5  /apex/com.android.runtime/lib/bionic/libc.so (usleep+52)
+#02 pc 005e53e3  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x5e5000) (OS_ApplicationTick(float)+26)
+#03 pc 00269f2f  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x268000) (NVEventAppMain(int, char**)+1062)
+#04 pc 0027c4af  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x274000)
+#05 pc 0027a1bf  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x274000)
+#06 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#07 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"WifiManagerThre" sysTid=19913
+#00 pc 0009bf4c  /apex/com.android.runtime/lib/bionic/libc.so (__epoll_pwait+20)
+#01 pc 0006dd51  /apex/com.android.runtime/lib/bionic/libc.so (epoll_wait+16)
+#02 pc 00011c89  /system/lib/libutils.so (android::Looper::pollInner(int)+128)
+#03 pc 00011bb3  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+62)
+#04 pc 000be1b3  /system/lib/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long long, int)+24)
+#05 pc 00239e0d  /system/framework/arm/boot-framework.oat (art_jni_trampoline+92)
+#06 pc 005a98e3  /system/framework/arm/boot-framework.oat (android.os.MessageQueue.next+178)
+#07 pc 005a6ac3  /system/framework/arm/boot-framework.oat (android.os.Looper.loop+618)
+#08 pc 005a5ddf  /system/framework/arm/boot-framework.oat (android.os.HandlerThread.run+478)
+#09 pc 000d47d5  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub_internal+68)
+#10 pc 004f2427  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub+282)
+#11 pc 0012cb2d  /apex/com.android.art/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+148)
+#12 pc 003ff4df  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+374)
+#13 pc 003ff5ef  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, jvalue const*)+42)
+#14 pc 00440b35  /apex/com.android.art/lib/libart.so (art::Thread::CreateCallback(void*)+1056)
+#15 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#16 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"queued-work-loo" sysTid=19914
+#00 pc 0009bf4c  /apex/com.android.runtime/lib/bionic/libc.so (__epoll_pwait+20)
+#01 pc 0006dd51  /apex/com.android.runtime/lib/bionic/libc.so (epoll_wait+16)
+#02 pc 00011c89  /system/lib/libutils.so (android::Looper::pollInner(int)+128)
+#03 pc 00011bb3  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+62)
+#04 pc 000be1b3  /system/lib/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long long, int)+24)
+#05 pc 00239e0d  /system/framework/arm/boot-framework.oat (art_jni_trampoline+92)
+#06 pc 005a98e3  /system/framework/arm/boot-framework.oat (android.os.MessageQueue.next+178)
+#07 pc 005a6ac3  /system/framework/arm/boot-framework.oat (android.os.Looper.loop+618)
+#08 pc 005a5ddf  /system/framework/arm/boot-framework.oat (android.os.HandlerThread.run+478)
+#09 pc 000d47d5  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub_internal+68)
+#10 pc 004f2427  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub+282)
+#11 pc 0012cb2d  /apex/com.android.art/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+148)
+#12 pc 003ff4df  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+374)
+#13 pc 003ff5ef  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, jvalue const*)+42)
+#14 pc 00440b35  /apex/com.android.art/lib/libart.so (art::Thread::CreateCallback(void*)+1056)
+#15 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#16 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"hwuiTask0" sysTid=19915
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 000aa353  /apex/com.android.runtime/lib/bionic/libc.so (pthread_cond_wait+32)
+#03 pc 0003d155  /system/lib/libc++.so (std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&)+8)
+#04 pc 003c068b  /system/lib/libhwui.so (android::uirenderer::CommonPool::workerLoop()+70)
+#05 pc 003c0805  /system/lib/libhwui.so (void* std::__1::__thread_proxy<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct> >, android::uirenderer::CommonPool::CommonPool()::$_0> >(void*)+88)
+#06 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#07 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"hwuiTask1" sysTid=19916
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 000aa353  /apex/com.android.runtime/lib/bionic/libc.so (pthread_cond_wait+32)
+#03 pc 0003d155  /system/lib/libc++.so (std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&)+8)
+#04 pc 003c068b  /system/lib/libhwui.so (android::uirenderer::CommonPool::workerLoop()+70)
+#05 pc 003c0805  /system/lib/libhwui.so (void* std::__1::__thread_proxy<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct> >, android::uirenderer::CommonPool::CommonPool()::$_0> >(void*)+88)
+#06 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#07 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"AsyncTask #1" sysTid=19917
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 0043f7bd  /apex/com.android.art/lib/libart.so (art::Thread::Park(bool, long long)+388)
+#02 pc 003a4f3b  /apex/com.android.art/lib/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long long)+502)
+#03 pc 0007ff39  /apex/com.android.art/javalib/arm/boot.oat (art_jni_trampoline+96)
+#04 pc 0017b2ef  /apex/com.android.art/javalib/arm/boot.oat (java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill+790)
+#05 pc 0017bfbb  /apex/com.android.art/javalib/arm/boot.oat (java.util.concurrent.SynchronousQueue$TransferStack.transfer+1890)
+#06 pc 00274147  /apex/com.android.art/javalib/arm/boot.oat (java.util.concurrent.SynchronousQueue.take+78)
+#07 pc 0023e489  /apex/com.android.art/javalib/arm/boot.oat (java.util.concurrent.ThreadPoolExecutor.getTask+424)
+#08 pc 0023f59f  /apex/com.android.art/javalib/arm/boot.oat (java.util.concurrent.ThreadPoolExecutor.runWorker+222)
+#09 pc 0023d107  /apex/com.android.art/javalib/arm/boot.oat (java.util.concurrent.ThreadPoolExecutor$Worker.run+54)
+#10 pc 0012f399  /apex/com.android.art/javalib/arm/boot.oat (java.lang.Thread.run+64)
+#11 pc 000d47d5  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub_internal+68)
+#12 pc 004f2427  /apex/com.android.art/lib/libart.so (art_quick_invoke_stub+282)
+#13 pc 0012cb2d  /apex/com.android.art/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+148)
+#14 pc 003ff4df  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+374)
+#15 pc 003ff5ef  /apex/com.android.art/lib/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, jvalue const*)+42)
+#16 pc 00440b35  /apex/com.android.art/lib/libart.so (art::Thread::CreateCallback(void*)+1056)
+#17 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#18 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"Binder:17908_5" sysTid=19938
+#00 pc 0009ae70  /apex/com.android.runtime/lib/bionic/libc.so (__ioctl+8)
+#01 pc 00069383  /apex/com.android.runtime/lib/bionic/libc.so (ioctl+26)
+#02 pc 0003a9d3  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+238)
+#03 pc 0003aba1  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+#04 pc 0003b4f9  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+44)
+#05 pc 000559f7  /system/lib/libbinder.so (android::PoolThread::threadLoop()+266)
+#06 pc 0000ee85  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+168)
+#07 pc 0006f17f  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+86)
+#08 pc 0000e9cd  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+256)
+#09 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#10 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"AppThread" sysTid=19943
+#00 pc 00098311  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libAML.so
+#01 pc 000981a7  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libAML.so (xu_cfi_print+230)
+#02 pc 00097f5d  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libAML.so (xunwind_cfi_get+56)
+#03 pc 00061ae1  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libAML.so (Handler(int, siginfo*, void*)+12832)
+#04 pc 00093801  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libplugin_fastman92limitAdjuster.so (GlobalExceptionHandler::RunExceptionHandler(int, siginfo*, void*)+1244)
+#05 pc 00003e69  /system/bin/app_process32 (art::SignalChain::Handler(int, siginfo*, void*)+220)
+#06 pc 0005df90  /apex/com.android.runtime/lib/bionic/libc.so (__restore_rt)
+#07 pc 000a5372  /apex/com.android.runtime/lib/bionic/libc.so (__fseeko64(__sFILE*, long long, int, int)+4)
+#08 pc 0004de36  [anon:.bss:83093000]
+
+"RenderQueue" sysTid=19944
+#00 pc 0009b6d4  /apex/com.android.runtime/lib/bionic/libc.so (nanosleep+12)
+#01 pc 0006f4f5  /apex/com.android.runtime/lib/bionic/libc.so (usleep+52)
+#02 pc 001d2491  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x1d1000) (GraphicsThread(void*)+660)
+#03 pc 0026bfa1  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x26b000) (ANDRunThread(void*)+128)
+#04 pc 0027a1bf  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x274000)
+#05 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#06 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"MainThread" sysTid=19946
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 0006be91  /apex/com.android.runtime/lib/bionic/libc.so (sem_wait+80)
+#03 pc 002c9bf7  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x2c9000) (CdStreamSync(int)+42)
+#04 pc 002d4733  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x2d4000) (CStreaming::LoadAllRequestedModels(bool)+250)
+#05 pc 003487bb  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x348000) (CRunningScript::ProcessCommands900To999(int)+542)
+#06 pc 0001ff29  /data/user/0/com.rockstargames.gtasa/files/libCLEOPlus.so (deleted)
+#07 pc 00054113  /data/user/0/com.rockstargames.gtasa/files/libCLEOMod.so (deleted)
+#08 pc 001054c9  /data/user/0/com.rockstargames.gtasa/files/libMP32.so (deleted)
+#09 pc 00112eff  /data/user/0/com.rockstargames.gtasa/files/libMP32.so (deleted)
+#10 pc 001083d7  /data/user/0/com.rockstargames.gtasa/files/libMP32.so (deleted)
+#11 pc 000c9403  /data/user/0/com.rockstargames.gtasa/files/libMP32.so (deleted)
+#12 pc 000a6b49  /data/user/0/com.rockstargames.gtasa/files/libweapwheeldliiartworks32.so (deleted)
+#13 pc 00064289  /data/user/0/com.rockstargames.gtasa/files/libScreenKillFX.so (deleted)
+#14 pc 0006d5f5  /data/user/0/com.rockstargames.gtasa/files/libPropInteraction.so (deleted)
+#15 pc 0004c251  /data/user/0/com.rockstargames.gtasa/files/libPlaneContrail.so (deleted)
+#16 pc 0004b061  /data/user/0/com.rockstargames.gtasa/files/libManualDriveby.so (deleted)
+#17 pc 00084e3d  /data/user/0/com.rockstargames.gtasa/files/libCombatHitMark.so (deleted)
+#18 pc 00069725  /data/user/0/com.rockstargames.gtasa/files/libActionKillCam.so (deleted)
+#19 pc 00038605  /data/user/0/com.rockstargames.gtasa/files/infinityammo.so (deleted)
+#20 pc 000177df  /data/user/0/com.rockstargames.gtasa/files/libJPatch.so (deleted)
+#21 pc 0001ffa3  /data/user/0/com.rockstargames.gtasa/files/libCLEOPlus.so (deleted)
+#22 pc 00002df1  /data/user/0/com.rockstargames.gtasa/files/libRubbishPort.so (deleted) (HookOf_UpdateGame()+12)
+#23 pc 0000241d  /data/user/0/com.rockstargames.gtasa/files/libAdvancedAiming.SA.so (deleted) (HookOf_GameProcess()+12)
+#24 pc 003f69e3  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x3f5000) (Idle(void*, bool)+234)
+#25 pc 00012903  /data/user/0/com.rockstargames.gtasa/files/libAdvancedSettings.SA.so (deleted)
+#26 pc 00016b75  /data/user/0/com.rockstargames.gtasa/files/libImfx.so (deleted)
+#27 pc 003f6ef9  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x3f5000) (AppEventHandler(RsEvent, void*)+24)
+#28 pc 004d4319  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x4cf000) (RsEventHandler(RsEvent, void*)+8)
+#29 pc 005e49f9  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x5e4000) (DoGameState()+740)
+#30 pc 005e51a9  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x5e5000) (MainGameFunc(void*)+320)
+#31 pc 0026bfa1  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x26b000) (ANDRunThread(void*)+128)
+#32 pc 0027a1bf  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x274000)
+#33 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#34 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"BankLoader" sysTid=19953
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 0006be91  /apex/com.android.runtime/lib/bionic/libc.so (sem_wait+80)
+#03 pc 0027d969  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x274000) (BankLoadingThread(void*)+168)
+#04 pc 0026bfa1  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x26b000) (ANDRunThread(void*)+128)
+#05 pc 0027a1bf  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x274000)
+#06 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#07 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"AudioTrack" sysTid=19954
+#00 pc 00260c70  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x223000) (MixDirect_C+100)
+#01 pc 0025f453  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x223000) (MixSource+1834)
+#02 pc 0024eca1  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x223000) (aluMixData+1048)
+#03 pc 00266779  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x266000)
+#04 pc 000141e9  /system/lib/libwilhelm.so (audioTrack_callBack_pullFromBuffQueue(int, void*, void*)+112)
+#05 pc 0004b509  /system/lib/libaudioclient.so (android::AudioTrack::processAudioBuffer()+1768)
+#06 pc 0004d29f  /system/lib/libaudioclient.so (android::AudioTrack::AudioTrackThread::threadLoop()+122)
+#07 pc 0000ef0d  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+304)
+#08 pc 0006f17f  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+86)
+#09 pc 0000e9cd  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+256)
+#10 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#11 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"StreamThread" sysTid=19956
+#00 pc 0009b6d4  /apex/com.android.runtime/lib/bionic/libc.so (nanosleep+12)
+#01 pc 0006f4f5  /apex/com.android.runtime/lib/bionic/libc.so (usleep+52)
+#02 pc 003aa441  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x3a4000) (CAEStreamThread::MainLoop(void*)+60)
+#03 pc 0026bfa1  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x26b000) (ANDRunThread(void*)+128)
+#04 pc 0027a1bf  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x274000)
+#05 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#06 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"Thread-9" sysTid=19957
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 000aa353  /apex/com.android.runtime/lib/bionic/libc.so (pthread_cond_wait+32)
+#03 pc 0003a577  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libImmEmulatorJ.so
+#04 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#05 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"Touchsense" sysTid=19959
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 000aa353  /apex/com.android.runtime/lib/bionic/libc.so (pthread_cond_wait+32)
+#03 pc 0027059d  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x26f000) (TouchSense::run()+224)
+#04 pc 002704b5  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x26f000) (TouchSense::threadFunc(void*)+4)
+#05 pc 0027a1bf  /data/app/~~yVMlZZlL3pqEhQycyC_J-g==/com.rockstargames.gtasa-EANeD2JESGe3PVnsA6pG5w==/lib/arm/libGTASA.so!libGTASA.so (offset 0x274000)
+#06 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#07 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"MainThread" sysTid=20125
+#00 pc 0009b6d4  /apex/com.android.runtime/lib/bionic/libc.so (nanosleep+12)
+#01 pc 0022561b  /data/user/0/com.rockstargames.gtasa/files/libMP32.so (deleted)
+#02 pc 00115433  /data/user/0/com.rockstargames.gtasa/files/libMP32.so (deleted)
+#03 pc 00116bc7  /data/user/0/com.rockstargames.gtasa/files/libMP32.so (deleted)
+#04 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#05 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"AudioTrack" sysTid=20126
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 0005012f  /system/lib/libaudioclient.so (android::ClientProxy::obtainBuffer(android::Proxy::Buffer*, timespec const*, timespec*)+490)
+#02 pc 0004aa0d  /system/lib/libaudioclient.so (android::AudioTrack::obtainBuffer(android::AudioTrack::Buffer*, timespec const*, timespec*, unsigned int*)+344)
+#03 pc 0004b487  /system/lib/libaudioclient.so (android::AudioTrack::processAudioBuffer()+1638)
+#04 pc 0004d29f  /system/lib/libaudioclient.so (android::AudioTrack::AudioTrackThread::threadLoop()+122)
+#05 pc 0000ef0d  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+304)
+#06 pc 0006f17f  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+86)
+#07 pc 0000e9cd  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+256)
+#08 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#09 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"AudioTrack" sysTid=20175
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 000aa353  /apex/com.android.runtime/lib/bionic/libc.so (pthread_cond_wait+32)
+#03 pc 0004d255  /system/lib/libaudioclient.so (android::AudioTrack::AudioTrackThread::threadLoop()+48)
+#04 pc 0000ef0d  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+304)
+#05 pc 0006f17f  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+86)
+#06 pc 0000e9cd  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+256)
+#07 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#08 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"AudioTrack" sysTid=20176
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 000aa353  /apex/com.android.runtime/lib/bionic/libc.so (pthread_cond_wait+32)
+#03 pc 0004d255  /system/lib/libaudioclient.so (android::AudioTrack::AudioTrackThread::threadLoop()+48)
+#04 pc 0000ef0d  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+304)
+#05 pc 0006f17f  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+86)
+#06 pc 0000e9cd  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+256)
+#07 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#08 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"AudioTrack" sysTid=20177
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 000aa353  /apex/com.android.runtime/lib/bionic/libc.so (pthread_cond_wait+32)
+#03 pc 0004d255  /system/lib/libaudioclient.so (android::AudioTrack::AudioTrackThread::threadLoop()+48)
+#04 pc 0000ef0d  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+304)
+#05 pc 0006f17f  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+86)
+#06 pc 0000e9cd  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+256)
+#07 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#08 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"AudioTrack" sysTid=20178
+#00 pc 0005e3c8  /apex/com.android.runtime/lib/bionic/libc.so (syscall+28)
+#01 pc 00063539  /apex/com.android.runtime/lib/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+92)
+#02 pc 000aa353  /apex/com.android.runtime/lib/bionic/libc.so (pthread_cond_wait+32)
+#03 pc 0004d255  /system/lib/libaudioclient.so (android::AudioTrack::AudioTrackThread::threadLoop()+48)
+#04 pc 0000ef0d  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+304)
+#05 pc 0006f17f  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+86)
+#06 pc 0000e9cd  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+256)
+#07 pc 000aacd3  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+40)
+#08 pc 00064173  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30)
+
+"[unknown-20658]" sysTid=20658
+
+----- end 17908 -----
+
+----------------------------------------------------
+		END OF REPORT
+----------------------------------------------------
+
+If you`re having problems using OFFICIAL mods, please report about this problem in our OFFICIAL server:
+		https://discord.gg/2MY7W39kBg
+Please follow the rules and head to the #help section!

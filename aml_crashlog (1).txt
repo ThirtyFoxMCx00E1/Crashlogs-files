@@ -1,0 +1,222 @@
+!!! THIS IS A CRASH LOG !!!
+If you are experiencing a crash, give us this file.
+>>> DO NOT SEND US A SCREENSHOT OF THIS FILE <<<
+
+Config variables: | g_bSimplerCrashLog = 0 | g_bNoSPInLog = 0 | g_bNoModsInLog = 0 | g_bDumpAllThreads = 1 | g_bEHUnwind = 0 | g_bMoreRegsInfo = 1 | g_bUnixBacktrace = 0 | 
+Exception Signal 11 - SIGSEGV (SEGV_MAPERR)
+Fault address: 0x1D0FF5D65F03D0 (0x1D0FF5D65F03D0) at 0x7F627177B8
+A POSSIBLE (!) reason of the crash:
+- An application tried to access the memory address that is unaccessible, protected or just wrong
+Library base: 0x7F62682000
+libgui.so + 0x957B8 (_ZN7android28TransactionCompletedListener22onTransactionCompletedENS_13ListenerStatsE)
+
+----------------------------------------------------
+Short device info:
+Android SDK Version: 35
+Brand: realme
+Device: RE6095
+Supported ABIs: arm64-v8a,armeabi-v7a,armeabi
+OS Build Date: Thu May  7 09:28:27 CST 2026
+OS Build ID: AP3A.240905.015.A2
+
+----------------------------------------------------
+Registers:
+X0:	530256934500	0x7B75C6B664 (libGTASA.so + 0x466664)
+X1:	12970367465550056296	0xB400007D6E650B68
+X2:	26436	0x6744
+X3:	4	0x4
+X4:	529635929968	0x7B50C2EF70
+X5:	12970367465550056176	0xB400007D6E650AF0
+X6:	12970367465550056184	0xB400007D6E650AF8
+X7:	12970367465550056200	0xB400007D6E650B08
+X8:	17878463644268692416	0xF81D0FF5D65F03C0
+X9:	2	0x2
+X10:	76922864271369	0x45F600000009
+X11:	4	0x4
+X12:	26435	0x6743
+X13:	26435	0x6743
+X14:	0	0x0
+X15:	0	0x0
+X16:	547011987536	0x7F5C748850 (libc++.so + 0x10C850)
+X17:	546770531632	0x7F4E103530 (libc.so + 0x71530)
+X18:	529619501056	0x7B4FC84000
+X19:	12970367470916183888	0xB400007EAE3DA750
+X20:	529635929920	0x7B50C2EF40
+X21:	12970367465550056144	0xB400007D6E650AD0
+X22:	12970367465818624912	0xB400007D7E671390
+X23:	547217253227	0x7F68B0A36B (libandroid_runtime.so + 0x8836B)
+X24:	12970367465550056192	0xB400007D6E650B00
+X25:	12970367465550056176	0xB400007D6E650AF0
+X26:	12970367467695297088	0xB400007DEE42D240
+X27:	529635929856	0x7B50C2EF00
+X28:	529635929784	0x7B50C2EEB8
+X29:	529635930048	0x7B50C2EFC0
+X30:	547112449488	0x7F627175D0 (libgui.so + 0x955D0)
+SP:	529635929648	0x7B50C2EE30
+PC:	547112449976	0x7F627177B8 (libgui.so + 0x957B8)
+CPSR:	4096	0x1000
+
+----------------------------------------------------
+List of loaded mods (count=29):
+AML Core (RusJJ aka [-=KILL MAN=-], version 1.4)
+ - GUID: net.rusjj.aml | Base: 0x0 | Path: localpath (core)
+SAUtils (RusJJ, version 1.6)
+ - GUID: net.rusjj.gtasa.utils | Base: 0x65BC20296977012D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libSAUtils64.so
+PedFuncs (JuniorDjjr & RusJJ, version 1.1.1)
+ - GUID: net.juniordjjr.rusjj.pedfuncs | Base: 0x5EE14414158C1389 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libPedFuncs64.so
+GTA:SA Advanced Settings (ARM, version 7.4.7 CBT)
+ - GUID: advancedsettings.sa | Base: 0x2921C6586C02C351 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libAdvancedSettings.SA64.so
+Advanced Threat Radar Circle (fadli, version 2.8)
+ - GUID: net.dliiartworks.advancedthreatradarcircle | Base: 0xB36F75E3A3336E39 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libavtdliiartworks64.so
+BASS Sound Library (RusJJ, version 1.2.1)
+ - GUID: net.rusjj.basslib | Base: 0x717ECFEDC2F61505 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libBASSMod64.so
+GTASA BulletTracers (RusJJ, version 1.1)
+ - GUID: net.theartemmaps.rusjj.tracers | Base: 0xFF5FDFE3A9B519A7 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libBulletTracers64.so
+Camera Shake On Shoot (cheeseburger, version 1.1)
+ - GUID: chzbrgr.camerashakeshoot | Base: 0x774E4DE1C4537D3F | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCameraShakeOnShoot64.so
+SleekMovement (Metalogic, pedrowav, version 1.0)
+ - GUID: net.metalogic.sleekmovement | Base: 0x86D61DEC7A6FC31B | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libSleekMovement64.so
+Leeds Moveset (ZyZz reincarnate, version 0.1.1)
+ - GUID: net.nigerianksi.leedsmoveset | Base: 0xA5C8C1DEC9F4895D | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libLeedsMoveset64.so
+Crashlog Reader (TwentySeven, version 2.0)
+ - GUID: +twsvn.crashlogreader | Base: 0xE8DE48A88A160DB | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libCrashlogReader64.so
+GTA:SA GPS (DK22Pac & JuniorDjjr & juicermv & RusJJ, version 1.5)
+ - GUID: net.dk22pac.rusjj.gps | Base: 0x2DDC1988EE300D79 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libGPS64.so
+Wanted Radar (RusJJ, version 1.1)
+ - GUID: net.rusjj.wantedradar | Base: 0xA72B0A9CAE5931F | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libGTA_WantedRadar64.so
+HeliFixSA (Grinch_ & RusJJ, version 1.1)
+ - GUID: net.usergrinch.rusjj.helifix | Base: 0xF49DB26D5BA72629 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libHeliFix64.so
+Disable Gunflash Effect (Noname, version 1.0)
+ - GUID: net.noname.nopgunflash | Base: 0xE9387009C438344F | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libNo3dgunflash64.so
+IVPickups (PandaGaming15 & RusJJ, version 1.0.4)
+ - GUID: net.pandagaming.rusjj.4pickups | Base: 0x14E87503E5FF093 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libIVPickups64.so
+JPatch (RusJJ, version 1.10.2.1)
+ - GUID: net.rusjj.jpatch | Base: 0x3D1E7E812F2DFFFF | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libJPatch64.so
+MP Multiplayer (ThirtyFoxMCx00E1, version 3.04.6)
+ - GUID: net.thirtyfox.mp | Base: 0x907FB4B36F72D63B | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libMP64.so
+Manual Drive-by (cheeseburger, version 1.1)
+ - GUID: chzbrgr.manualdriveby | Base: 0x3BE955042405F67F | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libManualDriveby64.so
+GTA:SA More Settings (RusJJ, version 1.4)
+ - GUID: net.rusjj.gtasa.moresettings | Base: 0x1A1F184AA275E34F | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libMoreSettings64.so
+Wanted Music & Evade SFX (cheeseburger, version 1.0)
+ - GUID: chzbrgr.wantedmusicevadesfx | Base: 0x552D77A7AF6D1D13 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libWantedMusicEvadeSFX64.so
+Radar ShapeR (RusJJ, version 2.1)
+ - GUID: net.rusjj.radarshaper | Base: 0xA09D7EC2AAAD9CB3 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libRadarShapeR64.so
+Weapon Change Animation (cheeseburger, version 1.0)
+ - GUID: chzbrgr.weaponchangeanim | Base: 0xA594AD82A37D7A83 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libWeaponChangeAnim64.so
+LensRecoilFX (XkiiGnss, version 1.2.0)
+ - GUID: xkiignss.lensrecoilfx | Base: 0xF4DA92B4B599646B | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libLensRecoilFX64.so
+GTA StarrySkies (RusJJ, version 1.2)
+ - GUID: net.rusjj.starryskies | Base: 0x915EF30AF42906E5 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libStarrySkies64.so
+ZyZ Model Variations (ZyZz reincarnate, version 1.1.3)
+ - GUID: net.nigerianksi.zyzmodelvariations | Base: 0xCD52B0D0B64DF657 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libZyZModelVariations64.so
+Weapon Fire Recoil (cheeseburger, version 1.0)
+ - GUID: chzbrgr.weaponfirerecoil | Base: 0xB7F500A1360C3059 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libWeaponFireRecoil64.so
+ZyZlimitadjuster (ZyZz reincarnate, version 1.25)
+ - GUID: net.nigerianksi.zyzlimitadjuster | Base: 0x4F12811FEF5C84C3 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libZyZlimitadjuster64.so
+ZyZ ModLoader (ZyZz reincarnate, version 0.19.0)
+ - GUID: net.nigerianksi.zyzmodloader | Base: 0x413600826ADEA6A5 | Path: /storage/emulated/0/Android_unprotected/data/com.rockstargames.gtasa/mods//libZyZModLoader64.so
+
+----------------------------------------------------
+Printing 1296 bytes of stack:
+ 00 0B 65 6E 7D 00 00 B4 40 FA C2 50 7B 00 00 00 (SP+0x000) [..en}...@..P{...]
+ 50 F0 C2 50 7B 00 00 00 E0 EE C2 50 7B 00 00 00 (SP+0x010) [P..P{......P{...]
+ 28 A8 3D AE 7E 00 00 B4 D8 13 67 7E 7D 00 00 B4 (SP+0x020) [(.=.~.....g~}...]
+ 20 5C 7E 62 7F 00 00 00 80 F0 4D 5E 7E 00 00 B4 (SP+0x030) [.\~b......M^~...]
+ 80 0B 65 6E 7D 00 00 B4 30 D3 44 5E 7D 00 00 B4 (SP+0x040) [..en}...0.D^}...]
+ 50 F0 4D 5E 7E 00 00 B4 50 5B 45 5E 7D 00 00 B4 (SP+0x050) [P.M^~...P[E^}...]
+ D8 5B 45 5E 7D 00 00 B4 D8 5B 45 5E 7D 00 00 B4 (SP+0x060) [.[E^}....[E^}...]
+ A8 EE C2 50 7B 00 00 00 00 00 00 00 00 00 00 00 (SP+0x070) [...P{...........]
+ 00 00 00 00 00 00 00 00 20 5C 7E 62 7F 00 00 00 (SP+0x080) [.........\~b....]
+ 99 CE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x090) [................]
+ D0 55 47 9E 7D 00 00 B4 02 00 00 00 00 00 00 00 (SP+0x0A0) [.UG.}...........]
+ E0 85 3D 5E 7D 00 00 B4 02 00 00 00 00 00 00 00 (SP+0x0B0) [..=^}...........]
+ 00 00 80 3F 00 00 00 00 50 F0 C2 50 7B 00 00 00 (SP+0x0C0) [...?....P..P{...]
+ D8 0A 65 6E 7D 00 00 B4 98 CE 00 00 00 00 00 00 (SP+0x0D0) [..en}...........]
+ 00 00 00 00 00 00 00 00 D0 25 65 6E 7D 00 00 B4 (SP+0x0E0) [.........%en}...]
+ 40 46 54 5E 7E 00 00 B4 B0 00 00 00 00 00 00 00 (SP+0x0F0) [@FT^~...........]
+ 00 A0 18 4E 7F 00 00 00 B0 00 00 00 00 00 00 00 (SP+0x100) [...N............]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x110) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x120) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x130) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x140) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x150) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x160) [................]
+ 40 FA C2 50 7B 00 00 00 E5 BC 80 D0 01 F3 18 B5 (SP+0x170) [@..P{...........]
+ 48 00 00 00 00 00 00 00 E5 BC 80 D0 01 F3 18 B5 (SP+0x180) [H...............]
+ 80 F0 C2 50 7B 00 00 00 D0 2A 73 62 7F 00 00 00 (SP+0x190) [...P{....*sb....]
+ 60 70 71 62 7F 00 00 00 50 F0 C2 50 7B 00 00 00 (SP+0x1A0) [`pqb....P..P{...]
+ 30 F0 C2 50 7B 00 00 00 C8 64 7E 62 7F 00 00 00 (SP+0x1B0) [0..P{....d~b....]
+ 58 47 68 7E 7D 00 00 B4 40 FA C2 50 7B 00 00 00 (SP+0x1C0) [XGh~}...@..P{...]
+ D8 13 67 7E 7D 00 00 B4 58 47 68 7E 7D 00 00 B4 (SP+0x1D0) [..g~}...XGh~}...]
+ 60 F0 C2 50 7B 00 00 00 50 A7 3D AE 7E 00 00 B4 (SP+0x1E0) [`..P{...P.=.~...]
+ D8 64 7E 62 7F 00 00 00 00 00 00 00 00 00 00 00 (SP+0x1F0) [.d~b............]
+ 10 47 68 7E 7D 00 00 B4 58 47 68 7E 7D 00 00 B4 (SP+0x200) [.Gh~}...XGh~}...]
+ 58 47 68 7E 7D 00 00 B4 E5 BC 80 D0 01 F3 18 B5 (SP+0x210) [XGh~}...........]
+ D8 64 7E 62 7F 00 00 00 00 00 00 00 00 00 00 00 (SP+0x220) [.d~b............]
+ 90 13 67 7E 7D 00 00 B4 D8 13 67 7E 7D 00 00 B4 (SP+0x230) [..g~}.....g~}...]
+ D8 13 67 7E 7D 00 00 B4 E5 BC 80 D0 01 F3 18 B5 (SP+0x240) [..g~}...........]
+ 70 F4 C2 50 7B 00 00 00 1C 8C 15 70 7F 00 00 00 (SP+0x250) [p..P{......p....]
+ 00 00 00 00 00 00 00 00 BC 63 3E 9E 7E 00 00 B4 (SP+0x260) [.........c>.~...]
+ 57 28 00 00 00 00 00 00 40 FA C2 50 7B 00 00 00 (SP+0x270) [W(......@..P{...]
+ 58 A7 3D AE 7E 00 00 B4 00 00 00 00 00 00 00 00 (SP+0x280) [X.=.~...........]
+ 01 00 00 00 00 00 00 00 F6 45 00 00 00 00 00 00 (SP+0x290) [.........E......]
+ 00 00 00 00 00 00 00 00 F0 61 3E 9E 7E 00 00 B4 (SP+0x2A0) [.........a>.~...]
+ 00 00 00 00 00 00 00 00 58 00 00 00 00 00 00 00 (SP+0x2B0) [........X.......]
+ 11 00 00 00 7D 00 00 B4 00 00 00 00 00 00 00 00 (SP+0x2C0) [....}...........]
+ 00 00 00 00 00 00 00 00 FF FF FF FF F6 45 00 00 (SP+0x2D0) [.............E..]
+ A0 91 3D CE 7C 00 00 B4 58 A7 3D AE 7E 00 00 B4 (SP+0x2E0) [..=.|...X.=.~...]
+ 01 00 00 00 11 00 00 00 00 00 00 00 E8 03 00 00 (SP+0x2F0) [................]
+ 8C 01 00 00 00 00 00 00 18 00 00 00 00 00 00 00 (SP+0x300) [................]
+ 00 30 4B 73 7C 00 00 00 90 31 4B 73 7C 00 00 00 (SP+0x310) [.0Ks|....1Ks|...]
+ 00 00 00 00 00 00 00 00 10 80 3B DE 7C 00 00 B4 (SP+0x320) [..........;.|...]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x330) [................]
+ 00 00 00 00 00 00 00 00 00 80 00 00 00 00 00 00 (SP+0x340) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x350) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x360) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x370) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x380) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x390) [................]
+ 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x3A0) [................]
+ 01 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x3B0) [................]
+ 00 00 00 00 00 00 00 00 2C C2 0E 4E 7F 00 00 00 (SP+0x3C0) [........,..N....]
+ 00 00 00 00 00 00 00 00 00 30 4B 73 7C 00 00 00 (SP+0x3D0) [.........0Ks|...]
+ 8C 01 00 00 00 00 00 00 8C 01 00 00 00 00 00 00 (SP+0x3E0) [................]
+ 8C 01 00 00 00 00 00 00 90 31 4B 73 7C 00 00 00 (SP+0x3F0) [.........1Ks|...]
+ 03 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 (SP+0x400) [................]
+ 03 00 00 00 00 00 00 00 04 00 00 00 00 00 00 00 (SP+0x410) [................]
+ 01 01 01 01 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x420) [................]
+ 01 00 01 00 00 00 00 00 D0 CD 16 70 7F 00 00 00 (SP+0x430) [...........p....]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x440) [................]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x450) [................]
+ 17 00 00 00 4C 00 00 00 E5 BC 80 D0 01 F3 18 B5 (SP+0x460) [....L...........]
+ 10 F3 C2 50 7B 00 00 00 8C D6 0E 4E 7F 00 00 00 (SP+0x470) [...P{......N....]
+ 40 FA C2 50 7B 00 00 00 60 B5 3B AE 7D 00 00 B4 (SP+0x480) [@..P{...`.;.}...]
+ 01 00 00 00 00 00 00 00 20 34 52 6E 7E 00 00 B4 (SP+0x490) [.........4Rn~...]
+ 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x4A0) [................]
+ 00 00 00 00 00 00 00 00 40 FA C2 50 7B 00 00 00 (SP+0x4B0) [........@..P{...]
+ 28 EA 18 4E 7F 00 00 00 70 63 41 CE 7C 00 00 B4 (SP+0x4C0) [(..N....pcA.|...]
+ 20 F3 C2 50 7B 00 00 00 B0 E1 0E 4E 7F 00 00 00 (SP+0x4D0) [...P{......N....]
+ 7A 63 41 CE 7C 00 00 B4 B8 E8 0E 4E 7F 00 00 00 (SP+0x4E0) [zcA.|......N....]
+ 80 F3 C2 50 7B 00 00 00 3C 2C 56 3E 7F 00 00 00 (SP+0x4F0) [...P{...<,V>....]
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (SP+0x500) [................]
+
+----------------------------------------------------
+Call stack:
+#00 pc 00000000000957b8  /system/lib64/libgui.so (_ZN7android28TransactionCompletedListener22onTransactionCompletedENS_13ListenerStatsE+1880)
+#01 pc 00000000000b0ad0  /system/lib64/libgui.so (_ZN7android30BnTransactionCompletedListener10onTransactEjRKNS_6ParcelEPS1_j+272)
+#02 pc 0000000000058c1c  /system/lib64/libbinder.so (_ZN7android14IPCThreadState14executeCommandEi+1228)
+#03 pc 00000000000579f0  /system/lib64/libbinder.so (_ZN7android14IPCThreadState14joinThreadPoolEb+656)
+#04 pc 000000000006cfec  /system/lib64/libbinder.so (_ZN7android10PoolThread10threadLoopEv+28)
+#05 pc 0000000000016c94  /system/lib64/libutils.so (_ZN7android6Thread11_threadLoopEPv+372)
+#06 pc 00000000000efe20  /system/lib64/libandroid_runtime.so (_ZN7android14AndroidRuntime15javaThreadShellEPv+144)
+#07 pc 000000000007009c  /apex/com.android.runtime/lib64/bionic/libc.so (_ZL15__pthread_startPv+204)
+#08 pc 0000000000061414  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68)
+
+----------------------------------------------------
+		END OF REPORT
+----------------------------------------------------
+
+If you`re having problems using OFFICIAL mods, please report about this problem in our OFFICIAL server:
+		https://discord.gg/2MY7W39kBg
+Please follow the rules and head to the #help section!
